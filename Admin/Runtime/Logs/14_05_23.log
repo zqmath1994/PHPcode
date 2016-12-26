@@ -1,0 +1,1719 @@
+[ 2014-05-23T08:45:14+08:00 ] 123.245.237.196 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-05-23T08:45:15+08:00 ] 123.245.237.196 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000943s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000622s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2014-05-23T08:45:16+08:00 ] 123.245.237.196 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.002034s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000354s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007320s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001969s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-05-23T08:45:17+08:00 ] 123.245.237.196 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-05-23T08:45:20+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000765s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079657s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000388s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-05-23T08:45:22+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/62/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000857s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-05-23T08:45:29+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/62/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001652s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/149',`image`='537e9a29f0405.jpg' WHERE ( `id` = 62 ) [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-05-23T08:45:31+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/62/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001617s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014470s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-05-23T08:47:44+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.002032s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000861s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-05-23T08:47:46+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/64/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001320s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 64 ) LIMIT 1   [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2014-05-23T08:48:01+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/64/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001254s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/198',`image`='537e9ac1a89d4.jpg' WHERE ( `id` = 64 ) [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2014-05-23T08:48:02+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/64/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000720s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 64 ) LIMIT 1   [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002483s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-05-23T08:52:39+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001185s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-05-23T08:52:41+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001078s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.002736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2014-05-23T08:52:57+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001974s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/43',`image`='537e9be9010aa.jpg' WHERE ( `id` = 50 ) [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007782s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-05-23T08:52:58+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000981s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-05-23T08:55:39+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001509s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-05-23T08:55:41+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/58/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000872s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002086s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003101s ]
+
+[ 2014-05-23T08:55:58+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/58/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001231s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/159',`image`='537e9c9e2d241.jpg' WHERE ( `id` = 58 ) [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-05-23T08:55:59+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/58/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000872s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-05-23T09:00:13+08:00 ] 123.245.237.196 /admin.php/Basis/slide
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001249s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `pid` = 0 )  [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-05-23T09:00:16+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001017s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038933s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2014-05-23T09:00:18+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/53/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000976s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 53 ) LIMIT 1   [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000405s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-05-23T09:00:25+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/53/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001056s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/29',`image`='537e9da93587a.jpg' WHERE ( `id` = 53 ) [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000502s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2014-05-23T09:00:26+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/53/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000844s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 53 ) LIMIT 1   [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014876s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-05-23T09:04:43+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001084s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001021s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2014-05-23T09:04:45+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/51/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000802s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-05-23T09:04:51+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/51/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001179s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/30',`image`='537e9eb37e997.jpg' WHERE ( `id` = 51 ) [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2014-05-23T09:04:52+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/51/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000673s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-05-23T09:05:45+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005563s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000899s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.320133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320313s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.076462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.078935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-05-23T09:05:46+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/54/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000974s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000595s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2014-05-23T09:05:53+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/54/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000970s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/43',`image`='537e9ef1984cc.jpg' WHERE ( `id` = 54 ) [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007206s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-05-23T09:05:54+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/54/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000753s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-05-23T09:06:11+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001254s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2014-05-23T09:06:13+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000718s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2014-05-23T09:06:21+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000954s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/27',`image`='537e9f0d33cee.jpg' WHERE ( `id` = 50 ) [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002049s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-05-23T09:06:22+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/50/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000771s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-05-23T09:10:08+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001561s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045379s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-05-23T09:10:10+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/59/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000996s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 59 ) LIMIT 1   [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013886s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-05-23T09:10:17+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/59/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001728s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/142',`image`='537e9ff963d5a.jpg' WHERE ( `id` = 59 ) [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2014-05-23T09:10:18+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/59/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000815s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 59 ) LIMIT 1   [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014917s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-05-23T09:12:40+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001493s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-05-23T09:12:42+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/65/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000826s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2014-05-23T09:12:49+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/65/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001320s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/139',`image`='537ea09108f2e.jpg' WHERE ( `id` = 65 ) [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009994s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002582s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-05-23T09:12:50+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/65/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000810s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013935s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-05-23T09:13:55+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/65/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.002558s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/139',`image`='537ea0d3d4e80.jpg' WHERE ( `id` = 65 ) [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-05-23T09:13:57+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/65/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000839s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013893s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-05-23T09:16:18+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001499s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000914s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-05-23T09:16:21+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/66/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001839s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014680s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2014-05-23T09:16:27+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/66/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001013s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/140',`image`='537ea16ba2625.jpg' WHERE ( `id` = 66 ) [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000507s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2014-05-23T09:16:28+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/66/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000780s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013821s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000668s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2014-05-23T09:17:52+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001073s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000959s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003148s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2014-05-23T09:17:54+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/63/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.002026s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000635s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2014-05-23T09:18:12+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/63/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001098s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/190',`image`='537ea1d482401.jpg' WHERE ( `id` = 63 ) [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007824s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2014-05-23T09:18:13+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/63/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000852s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014096s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000773s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002347s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-05-23T09:24:47+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.002041s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000815s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-05-23T09:24:49+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/68/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000970s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016100s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2014-05-23T09:24:56+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/68/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001429s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/193',`image`='537ea3688c548.jpg' WHERE ( `id` = 68 ) [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2014-05-23T09:24:57+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/68/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001704s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000708s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002721s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-05-23T09:27:03+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001030s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040924s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002535s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-05-23T09:27:05+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/69/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000732s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-05-23T09:27:11+08:00 ] 123.245.237.196 /admin.php/Web/saveshow/id/69/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.002154s ]
+SQL: UPDATE `lm_show` SET `url`='www.longmamedia.com/index.php/Company/index/id/186',`image`='537ea3efd3ed1.jpg' WHERE ( `id` = 69 ) [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2014-05-23T09:27:13+08:00 ] 123.245.237.196 /admin.php/Web/updashow/id/69/im/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001677s ]
+SQL: SELECT `id`,`image`,`url` FROM `lm_show` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.001036s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000810s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002633s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2014-05-23T09:32:50+08:00 ] 123.245.237.196 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-05-23T09:32:51+08:00 ] 123.245.237.196 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002046s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-05-23T09:33:41+08:00 ] 123.245.237.196 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.001288s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008070s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2014-05-23T09:33:42+08:00 ] 123.245.237.196 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018825s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-05-23T09:33:56+08:00 ] 123.245.237.196 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001089s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042759s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-05-23T09:33:58+08:00 ] 123.245.237.196 /admin.php/Basis/slide
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000839s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `pid` = 0 )  [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-05-23T09:34:00+08:00 ] 123.245.237.196 /admin.php/Basis/uslide/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000365s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2014-05-23T09:34:24+08:00 ] 123.245.237.196 /admin.php/Basis/ssli/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001107s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: UPDATE `lm_slide` SET `title`='头等客',`url`='www.longmamedia.com/index.php/Company/index/id/30',`image`='537ea5a0db0f8.jpg' WHERE ( `id` = 3 ) [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2014-05-23T09:34:26+08:00 ] 123.245.237.196 /admin.php/Basis/uslide/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2014-05-23T09:34:41+08:00 ] 123.245.237.196 /admin.php/Basis/slide
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000907s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `pid` = 0 )  [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017914s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2014-05-23T09:34:53+08:00 ] 123.245.237.196 /admin.php/Basis/uslide/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000788s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000083s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2014-05-23T09:34:56+08:00 ] 123.245.237.196 /admin.php/Basis/ssli/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000970s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: UPDATE `lm_slide` SET `title`='头等客',`url`='http://www.longmamedia.com/index.php/Company/index/id/30' WHERE ( `id` = 3 ) [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2014-05-23T09:34:57+08:00 ] 123.245.237.196 /admin.php/Basis/uslide/id/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001042s ]
+SQL: SELECT * FROM `lm_slide` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001105s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012593s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000526s ]
+

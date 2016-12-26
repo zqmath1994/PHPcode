@@ -1,0 +1,127 @@
+[ 2014-04-14T09:03:25+08:00 ] 123.245.253.54 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001334s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001043s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2014-04-14T10:53:10+08:00 ] 123.245.253.54 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001432s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-04-14T11:40:29+08:00 ] 123.245.253.54 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-04-14T11:40:30+08:00 ] 123.245.253.54 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-04-14T11:40:32+08:00 ] 123.245.253.54 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.001135s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000225s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008440s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000381s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2014-04-14T11:40:34+08:00 ] 123.245.253.54 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021639s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000646s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002199s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+

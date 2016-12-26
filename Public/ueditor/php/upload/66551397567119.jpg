@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  readfile() [<a href='function.readfile'>function.readfile</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/www/web/longmamedia_com/public_html/Public/ueditor/php/getRemoteImage.php</b> on line <b>64</b><br />
+<br />
+<b>Warning</b>:  readfile(http://www.longmamedia.com/Public/ueditor/php/upload1/20140415/1397566920211169.jpg) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/www/web/longmamedia_com/public_html/Public/ueditor/php/getRemoteImage.php</b> on line <b>64</b><br />

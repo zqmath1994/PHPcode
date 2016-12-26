@@ -1,0 +1,847 @@
+[ 2014-05-20T09:03:48+08:00 ] 123.245.244.205 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-05-20T09:03:49+08:00 ] 123.245.244.205 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002629s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2014-05-20T09:03:50+08:00 ] 123.245.244.205 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000522s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-05-20T09:03:52+08:00 ] 123.245.244.205 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2014-05-20T09:03:55+08:00 ] 123.245.244.205 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001409s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022175s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-05-20T09:03:57+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000780s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017583s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2014-05-20T09:09:58+08:00 ] 123.245.244.205 /admin.php/Web/insecase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001373s ]
+SQL: INSERT INTO `lm_company` (`title`,`lowertitle`,`outline`,`pid`,`content`,`pic`) VALUES ('嘀嘀打车商标侵权案','嘀嘀打车商标侵权案','杭州企业起诉“嘀嘀打车”称商标侵权索赔8000万',27,'<p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548103670796.png\" title=\"1.png\"/></p><p style=\"text-align: center;\">“小桔科技”对外公开的“嘀嘀打车”。</p><p><br/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548128521787.png\" title=\"2.png\"/></p><p><br/></p><p style=\"text-align: center;\">&nbsp; &nbsp; “妙影电子”已经获得国家工商部门确认的“嘀嘀”商标注册证。</p><p><br/></p><p>&nbsp; &nbsp; 上周，“嘀嘀打车”等宣布停止打车补贴，一场热火朝天的烧钱大战“熄火”了。但对于嘀嘀打车，另一场战斗才刚刚开始。</p><p>&nbsp; &nbsp; 昨天，杭州妙影微电子有限公司（以下称“妙影电子”）宣布，起诉北京小桔科技有限公司（以下称“小桔科技”）商标侵权，要求小桔科技停止使用商标，并赔偿八千万元。对此，“小桔科技”在回复钱江晚报记者采访时，强调已经在申请“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; 不过，“妙影电子”认为自己申请成功的“嘀嘀”和“小桔科技”申请中的“嘀嘀打车”，品牌核心都是“嘀嘀”，而且双方申请商标类别又都是第9类“计算机程序（可下载软件）”，所以“妙影电子”坚信，“小桔科技”不会申请成功。</p><p>&nbsp; &nbsp; 记者了解到，5月13日，杭州市中级人民法院已经正式受理此案。</p><p>&nbsp; &nbsp; 妙影电子已注册成功“嘀嘀”，而小桔科技还在申请注册“嘀嘀打车”</p><p>&nbsp; &nbsp; 根据记者调查，“妙影电子”成立于2009年1月14日，注册资本500万元人民币，法定代表人吴旭华，公司经营项目包括计算机软件产品。“小桔科技”成立于2012年7月10日，注册资本100万元，法定代表人程维，公司经营项目包括基础软件服务、应用软件服务。</p><p>&nbsp; &nbsp; “妙影电子”认为，自己才是商标“嘀嘀”的主人，“小桔科技”未经许可，违法使用。</p><p>&nbsp; &nbsp; 为了证明这一点，“妙影电子”所委托的北京大成（上海）律师事务所商建刚律师，提供了两个主要书面证据：</p><p>&nbsp; &nbsp; 第一， 证明“嘀嘀”的真正拥有人是杭州妙影微电子有限公司。</p><p>&nbsp; &nbsp; 早在2012年5月21日，国家工商总局商标局就批准核发了商标“嘀嘀”，核定使用类别包括计算机程序（可下载软件）。注册人是宁波市科技园区妙影电子有限公司，有效期为10年。</p><p>&nbsp; &nbsp; 2013年7月13日，国家工商总局商标局批准，“嘀嘀”商标转让给杭州妙影微电子有限公司。这两家公司的法人都是吴旭华。</p><p>&nbsp; &nbsp; 第二， 证明嘀嘀打车软件尚不拥有“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; “嘀嘀打车”商标还在申请中。2012年11月28日，北京小桔科技有限公司申请了图形、文字组合商标“嘀嘀打车”；2014年1月13日被国家工商行政管理总局商标局驳回。1月27日，总局收到复审申请，目前还在复核。</p><p>&nbsp; &nbsp; 据此，商建刚律师认为，“小桔科技”侵犯了“妙影电子”的商标权，“嘀嘀”和“嘀嘀打车”的核心品牌都在“嘀嘀”两个字。“妙影电子也是开发打车软件的，并早已经注册了嘀嘀，而根据商标法57条规定，未经商标注册人许可，在同一种商品上使用与其注册商标相同的商标，就构成商标侵权。”</p><p>&nbsp; &nbsp; 昨天，记者也联系上了“小桔科技”，公司公关部在回应中承认，“嘀嘀打车”还在申请注册中。“根据我国《商标法》，嘀嘀打车商标能否合法注册，尚在国家商标评审委员会复审过程之中，迄今并无定论。”</p><p>&nbsp; &nbsp; 妙影电子法人称维权是被逼的，小桔科技法人代表拒绝直接采访</p><p>&nbsp; &nbsp; 其实，早在2月25日，“妙影电子”委托的律师就主动联系钱江晚报，反映“嘀嘀”的商标权纠纷。而当时，相关律师也表示，之所以联系媒体，是希望借助此事扩大企业知名度，必要时获得公正的裁判。（本报2月26日有报道）</p><p>&nbsp; &nbsp; 昨天，“妙影电子”再次联系媒体，并在文三路某酒店举行了通报会。</p><p>&nbsp; &nbsp; 会上有媒体记者对“妙影电子”发出了质疑：为什么在这个时候选择起诉，且屡次主动联系新闻媒体，是否有别的动机？</p><p>&nbsp; &nbsp; 昨天，记者也就此采访了“妙影电子”法人代表吴旭华。她强调，自己的维权行为也是被逼的。“对于舆论的质疑，我可以理解，但我是正当维权，光明正大。”</p><p>&nbsp; &nbsp; 选择这个时间段，吴旭华坦言，有偶然也有必然。“作为一家创业阶段的企业，商标注册成功后，我们把大量的人力物力都投入到了产品研发中，而且我们并没有想到这样一家有雄厚背景的企业，会犯这样一个低级的法律错误。”吴旭华称，他们是在2013年下半年，随着打车软件大战的升级，知晓除了自己，还有一家“嘀嘀打车”的。</p><p>&nbsp; &nbsp;而吴旭华所说的“必然”是指“小桔科技”对此事的处理态度，让她不得不走法律途径。</p><p>&nbsp; &nbsp; “当我们把侵权的行为反映给小桔科技后，今年3月初至5月初，他们来杭州和我接触过四次，但都是无果而终，负责人甚至出言不逊。我的感觉，就是秀才遇到兵有理说不清！”吴旭华说，她意识到没有沟通的余地，只能选择诉诸法律。</p><p>&nbsp; &nbsp; 至于主动接触媒体，吴旭华的理由是希望能够获得公平。“相比较，我们是一家小企业，商标也是我们重要的无形资产，正如小桔科技负责人说的，他们拥有强大的后盾，所以我们想通过媒体把真相公布出去，至少让公众知晓，也是对知识产权的尊重。”</p><p>&nbsp; &nbsp; 昨天，记者通过电话、短信，多次与“小桔科技”法人代表、CEO程维取得联系，希望能够了解他对此事的回应，但他都拒绝了直接采访，而是让记者联系其公司公关部负责人。</p><p>&nbsp; &nbsp; 沟通多次，“小桔科技”公关部也没有正面回应种种疑问。“由于已经正式进入司法程序，我们不便于置评。但是我们相信，无论是国家商标评审委员会，还是人民法院，最终都会给出一个公正的回答。”</p><p>&nbsp; &nbsp; 原告要求停止侵权并索赔八千万，杭州市中院已立案审理</p><p>&nbsp; &nbsp; 虽然没有正面回应，但是“小桔科技”特别强调“小桔科技公司是一家负责任的移动互联网公司”。</p><p>&nbsp; &nbsp; 对此，“妙影电子”委托的商建刚律师表示不认同，他认为“小桔科技”是主观故意侵权，是一个不负责任的行为。“任何一家正常的企业，在注册使用一个商标时，都会先去相关部门检索，看是否已经被使用，而小桔科技明知‘嘀嘀’已经被注册，还执意申请，且在没有注册成功的情况下就开始使用，主观上就是故意。”</p><p>&nbsp; &nbsp; 记者了解到，目前，“妙影电子”已经联系了北京大成（上海）律师事务所、浙江楷立律师事务所两家律师事务所，对“小桔科技”提出两项要求：一是停止一切侵权行为；二是赔偿人民币八千万元。</p><p>&nbsp; &nbsp; 至于八千万元赔偿金额的依据，商建刚律师说，“主要还是考虑被告方的获利情况。”</p><p>&nbsp; &nbsp; 据“嘀嘀打车”官方提供的数据显示，从2014年1月10日至3月底，嘀嘀打车用户从2200万增加至1亿，日均订单量从35万增长至521.83万，嘀嘀打车累计投入现金补贴14亿。到3月28日，嘀嘀打车在覆盖的全国178个城市，日均订单达到521.83万单。市场研究机构易观国际近期的报告显示，嘀嘀打车占据的市场份额分别为45.3%。</p><p>&nbsp; &nbsp; 5月13日，杭州市中级人民法院正式向“妙影电子”发出“民事案件受理通知书”，称“起诉符合法定受理条件，本院决定立案审理。”</p>','537aab66babbf.jpg') [ RunTime:0.003336s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('537aab66b9f92.jpg','','',199) [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000398s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-05-20T09:09:59+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000901s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000535s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-05-20T09:10:20+08:00 ] 123.245.244.205 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001636s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001338s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2014-05-20T09:10:25+08:00 ] 123.245.244.205 /admin.php/Web/updacase/id/199
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 199 ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001044s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000674s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2014-05-20T09:10:42+08:00 ] 123.245.244.205 /admin.php/Web/savecase/id/199
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001141s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='嘀嘀打车商标侵权案',`lowertitle`='嘀嘀打车商标侵权案',`outline`='杭州企业起诉“嘀嘀打车”称商标侵权索赔8000万',`pid`=27,`content`='<p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548103670796.png\" title=\"1.png\"/></p><p style=\"text-align: center;\">“小桔科技”对外公开的“嘀嘀打车”。</p><p><br/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548128521787.png\" title=\"2.png\"/></p><p><br/></p><p style=\"text-align: center;\">&nbsp; &nbsp; “妙影电子”已经获得国家工商部门确认的“嘀嘀”商标注册证。</p><p><br/></p><p>&nbsp; &nbsp; 上周，“嘀嘀打车”等宣布停止打车补贴，一场热火朝天的烧钱大战“熄火”了。但对于嘀嘀打车，另一场战斗才刚刚开始。</p><p>&nbsp; &nbsp; 昨天，杭州妙影微电子有限公司（以下称“妙影电子”）宣布，起诉北京小桔科技有限公司（以下称“小桔科技”）商标侵权，要求小桔科技停止使用商标，并赔偿八千万元。对此，“小桔科技”在回复钱江晚报记者采访时，强调已经在申请“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; 不过，“妙影电子”认为自己申请成功的“嘀嘀”和“小桔科技”申请中的“嘀嘀打车”，品牌核心都是“嘀嘀”，而且双方申请商标类别又都是第9类“计算机程序（可下载软件）”，所以“妙影电子”坚信，“小桔科技”不会申请成功。</p><p>&nbsp; &nbsp; 记者了解到，5月13日，杭州市中级人民法院已经正式受理此案。</p><p>&nbsp; &nbsp; 妙影电子已注册成功“嘀嘀”，而小桔科技还在申请注册“嘀嘀打车”</p><p>&nbsp; &nbsp; 根据记者调查，“妙影电子”成立于2009年1月14日，注册资本500万元人民币，法定代表人吴旭华，公司经营项目包括计算机软件产品。“小桔科技”成立于2012年7月10日，注册资本100万元，法定代表人程维，公司经营项目包括基础软件服务、应用软件服务。</p><p>&nbsp; &nbsp; “妙影电子”认为，自己才是商标“嘀嘀”的主人，“小桔科技”未经许可，违法使用。</p><p>&nbsp; &nbsp; 为了证明这一点，“妙影电子”所委托的北京大成（上海）律师事务所商建刚律师，提供了两个主要书面证据：</p><p>&nbsp; &nbsp; 第一， 证明“嘀嘀”的真正拥有人是杭州妙影微电子有限公司。</p><p>&nbsp; &nbsp; 早在2012年5月21日，国家工商总局商标局就批准核发了商标“嘀嘀”，核定使用类别包括计算机程序（可下载软件）。注册人是宁波市科技园区妙影电子有限公司，有效期为10年。</p><p>&nbsp; &nbsp; 2013年7月13日，国家工商总局商标局批准，“嘀嘀”商标转让给杭州妙影微电子有限公司。这两家公司的法人都是吴旭华。</p><p>&nbsp; &nbsp; 第二， 证明嘀嘀打车软件尚不拥有“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; “嘀嘀打车”商标还在申请中。2012年11月28日，北京小桔科技有限公司申请了图形、文字组合商标“嘀嘀打车”；2014年1月13日被国家工商行政管理总局商标局驳回。1月27日，总局收到复审申请，目前还在复核。</p><p>&nbsp; &nbsp; 据此，商建刚律师认为，“小桔科技”侵犯了“妙影电子”的商标权，“嘀嘀”和“嘀嘀打车”的核心品牌都在“嘀嘀”两个字。“妙影电子也是开发打车软件的，并早已经注册了嘀嘀，而根据商标法57条规定，未经商标注册人许可，在同一种商品上使用与其注册商标相同的商标，就构成商标侵权。”</p><p>&nbsp; &nbsp; 昨天，记者也联系上了“小桔科技”，公司公关部在回应中承认，“嘀嘀打车”还在申请注册中。“根据我国《商标法》，嘀嘀打车商标能否合法注册，尚在国家商标评审委员会复审过程之中，迄今并无定论。”</p><p>&nbsp; &nbsp; 妙影电子法人称维权是被逼的，小桔科技法人代表拒绝直接采访</p><p>&nbsp; &nbsp; 其实，早在2月25日，“妙影电子”委托的律师就主动联系钱江晚报，反映“嘀嘀”的商标权纠纷。而当时，相关律师也表示，之所以联系媒体，是希望借助此事扩大企业知名度，必要时获得公正的裁判。（本报2月26日有报道）</p><p>&nbsp; &nbsp; 昨天，“妙影电子”再次联系媒体，并在文三路某酒店举行了通报会。</p><p>&nbsp; &nbsp; 会上有媒体记者对“妙影电子”发出了质疑：为什么在这个时候选择起诉，且屡次主动联系新闻媒体，是否有别的动机？</p><p>&nbsp; &nbsp; 昨天，记者也就此采访了“妙影电子”法人代表吴旭华。她强调，自己的维权行为也是被逼的。“对于舆论的质疑，我可以理解，但我是正当维权，光明正大。”</p><p>&nbsp; &nbsp; 选择这个时间段，吴旭华坦言，有偶然也有必然。“作为一家创业阶段的企业，商标注册成功后，我们把大量的人力物力都投入到了产品研发中，而且我们并没有想到这样一家有雄厚背景的企业，会犯这样一个低级的法律错误。”吴旭华称，他们是在2013年下半年，随着打车软件大战的升级，知晓除了自己，还有一家“嘀嘀打车”的。</p><p>&nbsp; &nbsp;而吴旭华所说的“必然”是指“小桔科技”对此事的处理态度，让她不得不走法律途径。</p><p>&nbsp; &nbsp; “当我们把侵权的行为反映给小桔科技后，今年3月初至5月初，他们来杭州和我接触过四次，但都是无果而终，负责人甚至出言不逊。我的感觉，就是秀才遇到兵有理说不清！”吴旭华说，她意识到没有沟通的余地，只能选择诉诸法律。</p><p>&nbsp; &nbsp; 至于主动接触媒体，吴旭华的理由是希望能够获得公平。“相比较，我们是一家小企业，商标也是我们重要的无形资产，正如小桔科技负责人说的，他们拥有强大的后盾，所以我们想通过媒体把真相公布出去，至少让公众知晓，也是对知识产权的尊重。”</p><p>&nbsp; &nbsp; 昨天，记者通过电话、短信，多次与“小桔科技”法人代表、CEO程维取得联系，希望能够了解他对此事的回应，但他都拒绝了直接采访，而是让记者联系其公司公关部负责人。</p><p>&nbsp; &nbsp; 沟通多次，“小桔科技”公关部也没有正面回应种种疑问。“由于已经正式进入司法程序，我们不便于置评。但是我们相信，无论是国家商标评审委员会，还是人民法院，最终都会给出一个公正的回答。”</p><p>&nbsp; &nbsp; 原告要求停止侵权并索赔八千万，杭州市中院已立案审理</p><p>&nbsp; &nbsp; 虽然没有正面回应，但是“小桔科技”特别强调“小桔科技公司是一家负责任的移动互联网公司”。</p><p>&nbsp; &nbsp; 对此，“妙影电子”委托的商建刚律师表示不认同，他认为“小桔科技”是主观故意侵权，是一个不负责任的行为。“任何一家正常的企业，在注册使用一个商标时，都会先去相关部门检索，看是否已经被使用，而小桔科技明知‘嘀嘀’已经被注册，还执意申请，且在没有注册成功的情况下就开始使用，主观上就是故意。”</p><p>&nbsp; &nbsp; 记者了解到，目前，“妙影电子”已经联系了北京大成（上海）律师事务所、浙江楷立律师事务所两家律师事务所，对“小桔科技”提出两项要求：一是停止一切侵权行为；二是赔偿人民币八千万元。</p><p>&nbsp; &nbsp; 至于八千万元赔偿金额的依据，商建刚律师说，“主要还是考虑被告方的获利情况。”</p><p>&nbsp; &nbsp; 据“嘀嘀打车”官方提供的数据显示，从2014年1月10日至3月底，嘀嘀打车用户从2200万增加至1亿，日均订单量从35万增长至521.83万，嘀嘀打车累计投入现金补贴14亿。到3月28日，嘀嘀打车在覆盖的全国178个城市，日均订单达到521.83万单。市场研究机构易观国际近期的报告显示，嘀嘀打车占据的市场份额分别为45.3%。</p><p>&nbsp; &nbsp; 5月13日，杭州市中级人民法院正式向“妙影电子”发出“民事案件受理通知书”，称“起诉符合法定受理条件，本院决定立案审理。”</p>',`pic`='537aab92b792a.png' WHERE ( `id` = 199 ) [ RunTime:0.001117s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-05-20T09:10:43+08:00 ] 123.245.244.205 /admin.php/Web/updacase/id/199
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000516s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 199 ) LIMIT 1   [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000846s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2014-05-20T09:11:06+08:00 ] 123.245.244.205 /admin.php/Web/savecase/id/199
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001249s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='嘀嘀打车商标侵权案',`lowertitle`='嘀嘀打车商标侵权案',`outline`='杭州企业起诉“嘀嘀打车”称商标侵权索赔8000万',`pid`=27,`content`='<p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548103670796.png\" title=\"1.png\"/></p><p style=\"text-align: center;\">“小桔科技”对外公开的“嘀嘀打车”。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400548128521787.png\" title=\"2.png\"/></p><p style=\"text-align: center;\">&nbsp; &nbsp; “妙影电子”已经获得国家工商部门确认的“嘀嘀”商标注册证。</p><p>&nbsp; &nbsp; 上周，“嘀嘀打车”等宣布停止打车补贴，一场热火朝天的烧钱大战“熄火”了。但对于嘀嘀打车，另一场战斗才刚刚开始。</p><p>&nbsp; &nbsp; 昨天，杭州妙影微电子有限公司（以下称“妙影电子”）宣布，起诉北京小桔科技有限公司（以下称“小桔科技”）商标侵权，要求小桔科技停止使用商标，并赔偿八千万元。对此，“小桔科技”在回复钱江晚报记者采访时，强调已经在申请“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; 不过，“妙影电子”认为自己申请成功的“嘀嘀”和“小桔科技”申请中的“嘀嘀打车”，品牌核心都是“嘀嘀”，而且双方申请商标类别又都是第9类“计算机程序（可下载软件）”，所以“妙影电子”坚信，“小桔科技”不会申请成功。</p><p>&nbsp; &nbsp; 记者了解到，5月13日，杭州市中级人民法院已经正式受理此案。</p><p>&nbsp; &nbsp; 妙影电子已注册成功“嘀嘀”，而小桔科技还在申请注册“嘀嘀打车”</p><p>&nbsp; &nbsp; 根据记者调查，“妙影电子”成立于2009年1月14日，注册资本500万元人民币，法定代表人吴旭华，公司经营项目包括计算机软件产品。“小桔科技”成立于2012年7月10日，注册资本100万元，法定代表人程维，公司经营项目包括基础软件服务、应用软件服务。</p><p>&nbsp; &nbsp; “妙影电子”认为，自己才是商标“嘀嘀”的主人，“小桔科技”未经许可，违法使用。</p><p>&nbsp; &nbsp; 为了证明这一点，“妙影电子”所委托的北京大成（上海）律师事务所商建刚律师，提供了两个主要书面证据：</p><p>&nbsp; &nbsp; 第一， 证明“嘀嘀”的真正拥有人是杭州妙影微电子有限公司。</p><p>&nbsp; &nbsp; 早在2012年5月21日，国家工商总局商标局就批准核发了商标“嘀嘀”，核定使用类别包括计算机程序（可下载软件）。注册人是宁波市科技园区妙影电子有限公司，有效期为10年。</p><p>&nbsp; &nbsp; 2013年7月13日，国家工商总局商标局批准，“嘀嘀”商标转让给杭州妙影微电子有限公司。这两家公司的法人都是吴旭华。</p><p>&nbsp; &nbsp; 第二， 证明嘀嘀打车软件尚不拥有“嘀嘀打车”商标。</p><p>&nbsp; &nbsp; “嘀嘀打车”商标还在申请中。2012年11月28日，北京小桔科技有限公司申请了图形、文字组合商标“嘀嘀打车”；2014年1月13日被国家工商行政管理总局商标局驳回。1月27日，总局收到复审申请，目前还在复核。</p><p>&nbsp; &nbsp; 据此，商建刚律师认为，“小桔科技”侵犯了“妙影电子”的商标权，“嘀嘀”和“嘀嘀打车”的核心品牌都在“嘀嘀”两个字。“妙影电子也是开发打车软件的，并早已经注册了嘀嘀，而根据商标法57条规定，未经商标注册人许可，在同一种商品上使用与其注册商标相同的商标，就构成商标侵权。”</p><p>&nbsp; &nbsp; 昨天，记者也联系上了“小桔科技”，公司公关部在回应中承认，“嘀嘀打车”还在申请注册中。“根据我国《商标法》，嘀嘀打车商标能否合法注册，尚在国家商标评审委员会复审过程之中，迄今并无定论。”</p><p>&nbsp; &nbsp; 妙影电子法人称维权是被逼的，小桔科技法人代表拒绝直接采访</p><p>&nbsp; &nbsp; 其实，早在2月25日，“妙影电子”委托的律师就主动联系钱江晚报，反映“嘀嘀”的商标权纠纷。而当时，相关律师也表示，之所以联系媒体，是希望借助此事扩大企业知名度，必要时获得公正的裁判。（本报2月26日有报道）</p><p>&nbsp; &nbsp; 昨天，“妙影电子”再次联系媒体，并在文三路某酒店举行了通报会。</p><p>&nbsp; &nbsp; 会上有媒体记者对“妙影电子”发出了质疑：为什么在这个时候选择起诉，且屡次主动联系新闻媒体，是否有别的动机？</p><p>&nbsp; &nbsp; 昨天，记者也就此采访了“妙影电子”法人代表吴旭华。她强调，自己的维权行为也是被逼的。“对于舆论的质疑，我可以理解，但我是正当维权，光明正大。”</p><p>&nbsp; &nbsp; 选择这个时间段，吴旭华坦言，有偶然也有必然。“作为一家创业阶段的企业，商标注册成功后，我们把大量的人力物力都投入到了产品研发中，而且我们并没有想到这样一家有雄厚背景的企业，会犯这样一个低级的法律错误。”吴旭华称，他们是在2013年下半年，随着打车软件大战的升级，知晓除了自己，还有一家“嘀嘀打车”的。</p><p>&nbsp; &nbsp;而吴旭华所说的“必然”是指“小桔科技”对此事的处理态度，让她不得不走法律途径。</p><p>&nbsp; &nbsp; “当我们把侵权的行为反映给小桔科技后，今年3月初至5月初，他们来杭州和我接触过四次，但都是无果而终，负责人甚至出言不逊。我的感觉，就是秀才遇到兵有理说不清！”吴旭华说，她意识到没有沟通的余地，只能选择诉诸法律。</p><p>&nbsp; &nbsp; 至于主动接触媒体，吴旭华的理由是希望能够获得公平。“相比较，我们是一家小企业，商标也是我们重要的无形资产，正如小桔科技负责人说的，他们拥有强大的后盾，所以我们想通过媒体把真相公布出去，至少让公众知晓，也是对知识产权的尊重。”</p><p>&nbsp; &nbsp; 昨天，记者通过电话、短信，多次与“小桔科技”法人代表、CEO程维取得联系，希望能够了解他对此事的回应，但他都拒绝了直接采访，而是让记者联系其公司公关部负责人。</p><p>&nbsp; &nbsp; 沟通多次，“小桔科技”公关部也没有正面回应种种疑问。“由于已经正式进入司法程序，我们不便于置评。但是我们相信，无论是国家商标评审委员会，还是人民法院，最终都会给出一个公正的回答。”</p><p>&nbsp; &nbsp; 原告要求停止侵权并索赔八千万，杭州市中院已立案审理</p><p>&nbsp; &nbsp; 虽然没有正面回应，但是“小桔科技”特别强调“小桔科技公司是一家负责任的移动互联网公司”。</p><p>&nbsp; &nbsp; 对此，“妙影电子”委托的商建刚律师表示不认同，他认为“小桔科技”是主观故意侵权，是一个不负责任的行为。“任何一家正常的企业，在注册使用一个商标时，都会先去相关部门检索，看是否已经被使用，而小桔科技明知‘嘀嘀’已经被注册，还执意申请，且在没有注册成功的情况下就开始使用，主观上就是故意。”</p><p>&nbsp; &nbsp; 记者了解到，目前，“妙影电子”已经联系了北京大成（上海）律师事务所、浙江楷立律师事务所两家律师事务所，对“小桔科技”提出两项要求：一是停止一切侵权行为；二是赔偿人民币八千万元。</p><p>&nbsp; &nbsp; 至于八千万元赔偿金额的依据，商建刚律师说，“主要还是考虑被告方的获利情况。”</p><p>&nbsp; &nbsp; 据“嘀嘀打车”官方提供的数据显示，从2014年1月10日至3月底，嘀嘀打车用户从2200万增加至1亿，日均订单量从35万增长至521.83万，嘀嘀打车累计投入现金补贴14亿。到3月28日，嘀嘀打车在覆盖的全国178个城市，日均订单达到521.83万单。市场研究机构易观国际近期的报告显示，嘀嘀打车占据的市场份额分别为45.3%。</p><p>&nbsp; &nbsp; 5月13日，杭州市中级人民法院正式向“妙影电子”发出“民事案件受理通知书”，称“起诉符合法定受理条件，本院决定立案审理。”</p>' WHERE ( `id` = 199 ) [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-05-20T09:11:07+08:00 ] 123.245.244.205 /admin.php/Web/updacase/id/199
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001110s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 199 ) LIMIT 1   [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2014-05-20T09:31:47+08:00 ] 123.245.244.205 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-05-20T09:31:48+08:00 ] 123.245.244.205 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008332s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2014-05-20T09:31:49+08:00 ] 123.245.244.205 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.000730s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000098s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000542s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000386s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2014-05-20T09:31:51+08:00 ] 123.245.244.205 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2014-05-20T09:32:08+08:00 ] 123.245.244.205 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2014-05-20T09:32:17+08:00 ] 123.245.244.205 /admin.php/Web/updashow/id/42/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000843s ]
+SQL: SELECT `id`,`title`,`url` FROM `lm_show` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024043s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002330s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-05-20T09:32:33+08:00 ] 123.245.244.205 /admin.php/Web/saveshow/id/42/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000928s ]
+SQL: UPDATE `lm_show` SET `title`='嘀嘀打车',`url`='www.longmamedia.com/index.php/Company/index/id/199' WHERE ( `id` = 42 ) [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2014-05-20T09:32:34+08:00 ] 123.245.244.205 /admin.php/Web/updashow/id/42/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001203s ]
+SQL: SELECT `id`,`title`,`url` FROM `lm_show` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014968s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001384s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003347s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-05-20T09:34:58+08:00 ] 123.245.244.205 /admin.php/Web/olay
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_olay` [ RunTime:0.001049s ]
+SQL: SELECT * FROM `lm_olay`  [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000774s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-05-20T09:35:00+08:00 ] 123.245.244.205 /admin.php/Config/listsConfig
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `lm_webconfig` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `lm_webconfig`  [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2014-05-20T09:35:02+08:00 ] 123.245.244.205 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000477s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000932s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.002747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020336s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2014-05-20T09:35:04+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000881s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002692s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-05-20T09:52:07+08:00 ] 123.245.244.205 /admin.php/Web/insecase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000626s ]
+SQL: INSERT INTO `lm_company` (`title`,`lowertitle`,`outline`,`pid`,`content`,`pic`) VALUES ('百事可乐启用新LOGO','百事可乐启用新LOGO','百事可乐启用新LOGO',27,'<p style=\"text-align: center;\">百事可乐全新概念LOGO设计欣赏</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/10371400550498.jpg\" title=\"New-concept-for-Pepsi-Logo_01.jpg\"/>&nbsp; &nbsp;&nbsp;</p><p style=\"text-align: left;\">最近，位于沙特阿拉伯首府利雅得市的Design Boutique设计工作室为百事可乐设计了一款全新的概念标志。在过去的几年中，百事可乐销售并不理想，最终决定将旗下所有的饮料品牌改头换面，2009年百事可乐再度换LOGO。然而作为专业从事设计Design Boutique的工作室来说，百事可乐的新标志和之前的标志在本质上没有太大的变化和改进。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/58611400550499.jpg\" title=\"New-concept-for-Pepsi-Logo_02.jpg\"/></p><p style=\"text-align: center;\">百事可乐全新概念LOGO设计</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66971400550499.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_03.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/46261400550500.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_04.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/80911400550500.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_05.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/98501400550501.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_06.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/71951400550502.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_08.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/76601400550502.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_09.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/60811400550503.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_10.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/53541400550503.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_11.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/86531400550504.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_12.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/94591400550504.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_13.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68921400550505.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_14.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/36361400550505.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_15.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/79961400550506.jpg\" style=\"float:none;\" title=\"New-concept-for-Pepsi-Logo_16.jpg\"/></p><p style=\"text-align: left;\">百事在调整自己形象标志的时候都非常谨慎，因此Design Boutique认为百事应该将自己的标志做一次大胆创新的设计。他们将百事的标志从2D转化为带有阴影效果的3D标志（这也是目前最为流行的设计趋势之一）。他们还制作了从包装到广告媒体宣传等一系列应用。</p><p style=\"text-align: center;\">百事可乐125年来LOGO变迁</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400550513170193.jpg\" title=\"201403271354285.jpg\"/></p><p>&nbsp; &nbsp; 08年的百事可乐过的并不舒心，前不久刚宣布大规模裁员，最近又要在全球换新的品牌标志。看来，全球金融危机对百事的影响也不小。另外一点，笔者始终对大多数专家认可的百事可乐和可口可乐的文化持怀疑态度。并不因为笔者是fq,也不是狭隘的民族自大。而是笔者发现大多推崇两乐文化的以学院派的人居多，或者是策划界、咨询界的多。</p><p>&nbsp; &nbsp; 其实，如果你跟销售一线的人聊天，很少有人关心这些，否则未战先怯，还不如趁早辞职。 百年的汽车企业，曽经全球的第一大企业，百年的银行和投行，该破产照样破产。你觉的这些企业没有文化？ 如果，企业的经营得失和营销成败，可以只用一个词概括，那也太简单了，人人都可以成为大企业家了，或者是大理论家了。 应该承认，两乐代表着美国文化的一部分，那么，本土饮料也不用怕，大家要做的是运用中国传统文化的精髓与之一战。 坐而空谈，不如，起而实干。 　</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400550607333664.jpg\" title=\"2014032713561967.jpg\"/></p><p>&nbsp; &nbsp; &nbsp;一．百事换标——项庄舞剑，意在沛公 百事可乐公司日前宣布，将投入12亿美元，三年内在全球推广全新品牌以及包括新品牌标识。虽然在国内主流媒体对百事换标的事件还没有大量报道，但是在其北美本土已经是炒作的沸沸扬扬了。 百事公司于上月发布了他们的全新标志，百事笑脸。这是继百事2002年改版之后最新的一次更新。此次标志 是由全球最大广告集团之一的Omnicom旗下的Arnell分公司花5个月时间设计的。据了解这也是百事公司自成立以来第11次换标志 。新标志可能将在全球范围内，从2008年底或者2009初开始应用。 百事可乐的蓝色和红色全球商标将成为一系列的“微笑” ，中央白色带弧形会因不同产品而有不同的角度。Diet Pepsi 和Pepsi Max会采用小写字体。而同为百事旗下的产品佳得乐品牌形象也将重新设计，会更加注重品牌自身，并突出佳得乐（Gatorade）中的“G”。百事公司的首席营销官Dave Burwick在讨论更改百事包装瓶会议上说：“如果我们不迅速改变，我们有可能成为一个历史的脚印。” 至于什么时候才能推出最新包装的百事饮料，百事给出的时间是今年年底或是2009年年初。 百事可乐公布的三季度报告显示百事可乐第三季销售盈利衰退9%，下调第四财季盈利预期，并且在宣布全球裁员3300人。在美国金融危机席卷全球的背景下，这个新的“微笑”标志是否暗示着百事在金融危机蔓延的今天仍对未来前景持乐观态度。同时这一举措能否为之带来更多的经济收益，这恐怕要大家试目以待。 但是，可以预测明年百事可乐一定会在品牌新标志的推广上不遗余力，并出台相关的整合营销传播手段以配合，在全球范围内对可口可乐和其他的饮料厂商展开一场攻击战。 　 而且，从这次新的标志图案来看，百事的品牌战略发生的改变其实暗藏玄机。 之前都是大一统的品牌标志，这种情况也是最简单的，只要确定下最后是哪一个标志图案就可以了，在宣传推广上比较好发力。 而现在采用不同的品牌标志，这种情况要复杂很多了，变数也多。 Diet Pepsi 其实是采用的主副品牌标志策略，Pepsi为主，Diet为副，在品牌的传播上变化不会很大。但是对于Pepsi Max，其实是采用的担保品牌标志策略。这里的主品牌是Max，Pepsi只是以企业品牌出现来起到担保的作用。Pepsi Max的标志起微笑的开口更大，被很多人称为“邪恶的微笑”（增加的内容：——Max的诉求主打是低热量的健康可乐概念，因此会让消费者更开心！所以新标志自然也就笑口开的大很多）。其针对的目标消费者一定会更加叛逆不拘，一定也更注重对自我的释放，比较适合采用生活形态营销的方法，当然，这种方法的运用难度和成本都更高。百事接下来应该会在内部对人力资源和营销架构做一些小的调整。 每个分公司至少要增设一两名品类经理了，下面可能再设多几个品牌专员或助理。因为百事是按照品牌群来设经理的，一个品牌群一个经理。换标表面是为顺应消费者的求新和更时尚的趋势，但实际上可以进而通过本次换标来整合旗下产品线，以全新的形象冲击可口可乐盘踞的全球市场，抢夺更多的年轻消费者的市场份额。这从旗下max、佳得乐等子品牌的视觉更新可见一斑。 如果笔者估计没错，接下来，百事推广的侧翼重点会放在百事轻怡、佳得乐和max上，传统的百事可乐是正面阵地战式的猛攻，而其他是从侧翼来攻击。 所以，换标是跟新一轮的品牌战略和大规模的品牌推广运动分不开的。接下来，新一轮的可乐大战将会不断精彩上演，又有好戏看了！&nbsp;</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400550709638311.jpg\" title=\"2014040201480086.jpg\"/></p><p>&nbsp; &nbsp; 二．历史回顾——百年征程，十次换标 　　 其实从百事可乐的百年历史来看，其已经换过十次标志了，加上这次是第十一次了。是可口可乐换标次数（五次）的两倍多。 其实，百事可乐的标识从推出百事品牌就一直受到可口可乐的影响，一直维持了半个世纪之久，直到1960年代起的新标识才逐渐摆脱可口可乐的影响。从这个时期开始，百事的标志中毅然抛弃“cola”字样，只保留“pepsi”, 并使字体设计得更时尚，更显活力。 与此同时，百事在同一时期发起的“百事新一代”的品牌推广运动，有力的抢夺了可口可乐的市场分额。 PEPSI标识越变越青春化、越时尚化，这与PEPSI所坚持针对的目标消费者群的细分策略分不开的，PEPSI一直坚持其产品的消费对象为年青人，所以其标志随时代的变化而变化。 相信不久的将来，百事还会再次换标。 &nbsp;&nbsp;</p><p>&nbsp; &nbsp; 三．短期影响——振奋军心，抢占市场 短期之内的影响，笔者认为首先肯定还是正面和积极的为主。 第一，起码通过换标以及大规模的品牌推广活动的出台，短时间内一定会鼓舞全公司上下的士气。当一个销售人员，在一线工作时，每天都能看见公司的电视、报纸、户外广告宣传的支持，杂志和网络的软文炒作，终端陈列的生动化展示，工作起来会是多么的有自豪感。许多同行的销售人员，甚至最大竞争对手的一线业务，都会关于换标的话题跟你聊两句，并投过来羡慕的神情。 甚至很可能可口可乐的一个业务私下告诉百事的业务：“兄弟，我昨天冒着被开除的危险，买了一瓶你们的新包装饮料来尝，味道好象真的跟以前不同，你们以后奖金肯定多过我们！”这些利好因素之下，你认为百事的业务人员能不骄傲和拼命工作吗？ 第二．市场分额在短期内的提升。鼓舞士气、振奋军心之后，这时再把早已计划好的高销量目标分解下来，大家自然都很开心的接受了。就算比去年的目标还高，经济环境也不如以往，但一鼓作气，先把货多铺点下去，而且产品线更丰富，短期内塞满终端的货架和经销商的仓库是没有问题的。头几个月，消费者也一定会因为好奇而纷纷购买换新包装后的百事。 当然，也有少数业内人士认为对这次换标百事会有些许不利的影响：因为从平民到总统，从美洲到亚洲，换标后的变化多端的百事标志对众多层次的消费群而言并非一件好事，而且相对于以往消费群认识百事，换标后的认识难度会大大增加，消费群可以顺利的对旧形象进行识别，并十分肯定的确认“这就是百事”，而新的产品包装使得人们在识别的时间和难度上都大大增加，这些难度的增加将导致不确定性，很可能会打击品牌的“信任度”。 这一点，笔者个人认为，凭借百事的强大的品牌推广能力和教育消费者的能力，随着时间的流逝，上述观点的担心的问题会逐步得到解决，多则半年，少则几个月，年轻一代的消费者就可以很容易的认知百事的新标志和包装了。 案例对比： 从对比角度来说，还是举可口可乐的中国换标事件为例了。 2003年2月，在可口可乐位于上海的中国总部，随着新商标揭幕按钮的启动，厂房外墙上披盖的红色帷幕急速滑落后，23年没有变化的可口可乐中文新标志终于露出“庐山真面目”。 变化过的新标志让人眼前一亮，感觉相当具有现代气息，更加富有动感效果。尽管保留了可口可乐视觉商标中专有红色、用斯宾瑟字体书写的白色英文商标、弧形瓶及波浪形飘带图案等基本元素，但新标志在红色背景中加入了暗红色弧形线，增加了红色的深度和动感，并产生了多维的透视效果。 同时，斯宾瑟字体书写的白色英文商标套上了一层银色边框从而更加清晰、醒目。原来单一的白色“波浪形飘带”也演变为由红、白、银色组成多层次多颜色的飘带。此外，原来商标上的弧形瓶图案也改为“气泡弧形瓶”。 而新商标最大的变化则体现在中文标志上。当时可口可乐重金聘请了香港著名广告设计师陈幼坚设计出全新流线形中文字体，与英文字体和商标整体风格更加协调，取代了可口可乐自1978年重返中国市场后一直在使用的中文字体。而这也是可口可乐中文标识在中国20多年来的第一次全新设计。“我们改变的不仅是标志，也是我们与消费者的一种新的沟通方式”。对于此次推出的可口可乐新标志，可口可乐中国区公司总裁包逸秋表示，期望能藉此为消费者带来耳目一新和富有时代创新的感觉。 事实上，可口可乐在全球几乎每过十几年就会对商标进行一些修改和更新，以适应不断变化着的市场口味。在中国的变更商标也是其在美国率先发起的全球更换商标等市场推广计划中的一环。 当年，换标后的可口可乐的全国市场的占有率提高了近3个百分点。广州市场的变化尤其典型，新包装推出之后，可口可乐在广州的销售额居然同比增长28％。 通过广告投放量之外的营销战术的调整来刺激消费者需求的做法事实上可口可乐早已经不是第一次尝试了，有一年可口可乐甚至取消加拿大市场全年的广告预算，用省下来的钱改换包装。这样的原因在于，公司从数据调查获知，阻碍产品推广的不是广告的到达率，而是平庸的包装。 所以，在更换包装和标志后的短期内的第一年，百事的市场份额是几乎确定可以提升的，当然，是在价格体系不变的情况下，如果价格体系变动，另当别论。 　&nbsp;</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140520/1400550721920813.jpg\" title=\"2014040811565637.jpg\"/></p><p>&nbsp; &nbsp; 四．长远预测——品牌换标，喜忧参半 但是从长期的影响和作用来分析，就要复杂很多了。短期的影响容易预测判断，长期的影响和作用分析起来就难度大很多了。 一般来说，一个好的标志对品牌塑造有以下几个作用： 1.增加品牌的信赖感和识别度 在品牌视觉识别要素中，标志是核心要素。标志是指那些造形单纯、意义明确的统一、标准的视觉符号，一般是品牌的文字名称、图案记号或两者相结合的一种设计。标志具有象征功能、识别功能，是品牌形象、特征、信誉和文化的浓缩，一个设计杰出的、符合品牌理念的标志，会增加品牌的信赖感和权威感，在社会大众的心目中，它就是一个组织或品牌的代表。 2.便于对品牌的理解和记忆 无论用什么方法设计的标志，都应力求形体简洁。形象明朗，引人注目，而且易于理解和记忆。优美精致，符合美学原理，是一个成功标志所不可缺少的条件。造型美是标志的艺术特色，设计时应把握一个“美”字，使符号的形式符合人类对美的共同感知；点、线、面、体四大类标志设计的造型要素，在符合形式规律的运用中，能构成独立于各种具体事物的结构美感。美好的标志，是使其独立并区隔于其它标志的必要条件，也便于消费者的对该品牌内涵的理解，自然更容易记忆。 3.体现品牌的精神文化价值，增强亲和力，吸引消费者购买 从这个角度来说，品牌标志如果不能与时俱进，那么，它对新一代消费者的吸引力的确会弱很多。而百事的品牌战略又恰好决定了它必须不断的进行品牌标志的更新，以活化品牌，吸引新生代的消费群。（增加内容）百事表面上的变实质是为了据以安身立命的不变——聚焦新一代，激情时尚地拥抱未来，感召所有年轻人以及感到自己年轻的人！ 所以，标志的设计并不是一劳永逸的事情，时代在变，社会在进步，消费者的观念和行为也在变化中，标志自然需要不断更新来满足消费者的变化。当然，要想扭转品牌在消费者心中的形象，光依靠更换标识是远远不够的。品牌标识只是品牌工程中的一个的组成部分，一个品牌的形象更新和重新定位，不在于品牌标志是否更换，不在于广告、公关是否改变。其关键在于品牌能否重新找回消费者需求的原点，关键在于品牌所提供的物质功能需求和精神文化需求能否再次满足消费者。如果品牌的核心价值无法再次得到消费者的肯定，那么所有一切的外在改变都将是徒劳无益的。 品牌保持活力的唯一办法，就是需要企业密切注意消费者在物质功能需求和精神文化需求的细微变化。千万不要等品牌无法再满足消费者的需求而开始老化时再采取措施。 笔者最敬佩的市场营销学泰斗之一的泰德・李维特在《营销近视病》一文中说过一句话：“根本没有所谓的成长行业，只有消费者的需要，而消费者的需要是不断变化的。”百事无论怎么换标也好，都只是品牌外在的改变，如果产品的内在既品牌的核心价值不能满足消费者日益增长的对健康、营养的需求，市场分额的下降也是不可避免的。 百事的老对手——可口可乐对全球消费者会定期进行一至两年的跟踪调查,了解对其口味和可口可乐包装的需求,最终决定是否换包装。可口可乐完全出于“惯性”,每隔一段时间,就进行一次新标的尝试。 一方面，对于可口可乐和百事来说,更换新标识也是一件既有诱惑性又冒险的事。诱惑之处在于,两乐需要不断迎合新新消费者的审美趣味,保持时尚。两乐也自然更愿意把换标事件当作营销卖点去激活消费者和市场。说冒险,是因为如果新标识不被消费者接受,不但白花了大把的银子,还会直接影响销售。 另一方面，很多专家认为两乐已经将营销当作传奇来写了。认为两乐在引领潮流，丰富文化。最重要的是，两乐促使消费者持续关注，使消费者认同两乐为“生活的一部分”、“自己的一部分”、“乐趣的一部分”，这已经上升为文化和市场战略的层次，不仅仅是手段和营销战术了！</p>','537ab54798db2.jpg') [ RunTime:0.002686s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('537ab54797de8.jpg','','',200) [ RunTime:0.000506s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('537ab547985d0.jpg','','',200) [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-05-20T09:52:08+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001121s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018797s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2014-05-20T09:52:21+08:00 ] 123.245.244.205 /admin.php/Web/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `lm_show`  [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023119s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2014-05-20T09:52:27+08:00 ] 123.245.244.205 /admin.php/Web/updashow/id/45/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001109s ]
+SQL: SELECT `id`,`title`,`url` FROM `lm_show` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-05-20T09:52:49+08:00 ] 123.245.244.205 /admin.php/Web/saveshow/id/45/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001004s ]
+SQL: UPDATE `lm_show` SET `title`='百事新图标',`url`='www.longmamedia.com/index.php/Company/index/id/200' WHERE ( `id` = 45 ) [ RunTime:0.001387s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2014-05-20T09:52:50+08:00 ] 123.245.244.205 /admin.php/Web/updashow/id/45/im/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_show` [ RunTime:0.001090s ]
+SQL: SELECT `id`,`title`,`url` FROM `lm_show` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2014-05-20T09:53:39+08:00 ] 123.245.244.205 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001158s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001825s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016198s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001384s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-05-20T09:53:40+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001114s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-05-20T10:16:02+08:00 ] 123.245.244.205 /admin.php/Web/insecase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000721s ]
+SQL: INSERT INTO `lm_company` (`title`,`lowertitle`,`outline`,`pid`,`content`,`pic`) VALUES ('世界十大最昂贵的标志设计','世界十大最昂贵的标志设计','世界十大最昂贵的标志设计',26,'<p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/58891400552148.png\" title=\"The-world-top-10-expensive-logo-design_01.png\"/></p><p>TOP1.英国石油公司（BP）</p><p>世界上最大的石油和石化集团公司之一，由前英国石油（British Petroleum）、阿莫科（Amoco）、阿科（ARCO）和嘉实多（Castrol）等公司整合重组形成。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/30141400552149.png\" title=\"The-world-top-10-expensive-logo-design_02.png\"/></p><p>TOP2.埃森哲(Accenture )</p><p>全球领先的管理咨询、信息技术及外包服务机构。《财富》全球500强企业之一。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/47871400552149.png\" title=\"The-world-top-10-expensive-logo-design_03.png\"/></p><p>TOP3.挪威邮政（Posten Norge BA）</p><p>始建于1647年，全球性邮政服务企业，其工作职责就是通过运用各种交通工具来传送邮件、物品，其下分为四大业务块：邮政服务、快递、后勤和电子信息服务</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/42201400552150.png\" title=\"The-world-top-10-expensive-logo-design_04.png\"/></p><p>TOP4.澳新银行（ANZ Bank ）</p><p>全澳四大银行之一，全球排名在前50位。银行的历史可追溯到150年以前，总部设在墨尔本。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/99861400552150.png\" title=\"The-world-top-10-expensive-logo-design_05.png\"/></p><p>TOP5.法国官方招聘网站（ANPE）&nbsp;</p><p>法国官方就业指导网站，提供完善的就业指导和最新的工作信息，在这里，你可以查看所有的招聘信息，也可以建立自己的个人空间，输入自己的各项信息和求职意向。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/74431400552151.png\" title=\"The-world-top-10-expensive-logo-design_06.png\"/></p><p>TOP6.百事可乐（Pepsico）</p><p>世界上最成功的消费品公司之一，在全球200多个 国家和地区拥有14万雇员，2004年销售收入293亿美元，为全球第四大食品和饮料公司。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/63131400552151.png\" title=\"The-world-top-10-expensive-logo-design_07.png\"/></p><p>TOP7.2012伦敦奥运会会徽</p><p>2007年6月4日公布了新的会徽，新会徽完全没有当地的传统标志或色彩，颜色样式不一。伦敦奥运会会徽是对“2012”四个数字进行变形，不同斜块组合成一个不规则图形。</p><p>设计者奥林斯(Wolff Ollins)表示，这个标志旨在吸引年轻人，而且一改过往奥运标志倾向于显示城市面貌的传统。</p><p>2012年伦敦奥运会会徽一经公布即争议不断，包括伦敦市长在内的英国民众在网络上指责该会徽“形如车祸现场”，令人不安。更有网友对其进行了多种版本的恶搞。该会徽设计因此也被称为有史以来最具争议性的奥运会徽设计。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/31591400552152.png\" title=\"The-world-top-10-expensive-logo-design_08.png\"/></p><p>TOP8.法国招聘就业网（Accueil Pôle emploi）</p><p>由法国官方就业指导网站（ANPE）合并成立。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/50641400552152.png\" title=\"The-world-top-10-expensive-logo-design_09.png\"/></p><p>TOP9.加拿大蒙特利尔（Montreal）城市旅游标志</p><p>有“北美的巴黎”之称的蒙特利尔是具有独特法裔文化传统的北美最古老的都市之一，是北美最大的和世界上第二大的法语城市。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/11781400552153.png\" title=\"The-world-top-10-expensive-logo-design_10.png\"/></p><p>TOP10.英国广播公司第三台(BBC Three)</p><p>BBC Three是英国广播公司旗下面向16-34岁年龄组播出的频道，于2003年2月9日开播。</p>','537abae248c85.jpg') [ RunTime:0.001493s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('537abae247b6f.jpg','','',201) [ RunTime:0.000270s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('537abae248440.jpg','','',201) [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000650s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2014-05-20T10:16:03+08:00 ] 123.245.244.205 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000915s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2014-05-20T10:17:10+08:00 ] 123.245.244.205 /admin.php/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009514s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002837s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2014-05-20T11:36:46+08:00 ] 193.203.49.210 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+

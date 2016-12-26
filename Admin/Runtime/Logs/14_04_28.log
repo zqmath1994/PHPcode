@@ -1,0 +1,15 @@
+[ 2014-04-28T10:13:38+08:00 ] 182.118.33.7 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2014-04-28T10:13:42+08:00 ] 182.118.33.7 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2014-04-28T10:13:48+08:00 ] 182.118.33.7 /admin.php?c=ajax&f=exit&filename=opt&group_id=1%20union%20select%203,1,0,md5(1122),account,6%20from%20qinggan_adm%20where%20id%20like%201%23&identifier=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+

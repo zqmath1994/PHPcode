@@ -1,0 +1,345 @@
+[ 2014-05-27T00:00:34+08:00 ] 123.245.253.128 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000818s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043184s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001029s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000757s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003278s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-05-27T00:04:15+08:00 ] 123.245.253.128 /admin.php/Web/insecase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001222s ]
+SQL: INSERT INTO `lm_company` (`title`,`lowertitle`,`outline`,`pid`,`content`,`pic`) VALUES ('张纪中版西游记幕后纪录片','张纪中版西游记幕后纪录片剪辑','张纪中版西游记幕后纪录片',9,'<p>&nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>','538365ff9cff2.jpg') [ RunTime:0.001236s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('538365ff9c438.jpg','','',215) [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000362s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2014-05-27T00:04:16+08:00 ] 123.245.253.128 /admin.php/Web/addcase
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000801s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017641s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002912s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2014-05-27T00:04:38+08:00 ] 123.245.253.128 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001013s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001519s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003253s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2014-05-27T00:04:41+08:00 ] 123.245.253.128 /admin.php/Web/updacase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000145s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 215 ) LIMIT 1   [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2014-05-27T00:04:44+08:00 ] 123.245.253.128 /admin.php/Web/savecase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001140s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='张纪中版西游记幕后纪录片',`lowertitle`='张纪中版西游记幕后纪录片剪辑',`outline`='张纪中版西游记幕后纪录片',`pid`=9,`content`='<p>&nbsp; &nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>' WHERE ( `id` = 215 ) [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006565s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002053s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-05-27T00:04:45+08:00 ] 123.245.253.128 /admin.php/Web/updacase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000897s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000152s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 215 ) LIMIT 1   [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000677s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-05-27T00:21:42+08:00 ] 123.245.253.128 /admin.php/Web/savecase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001690s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='张纪中版西游记幕后纪录片',`lowertitle`='张纪中版西游记幕后纪录片剪辑',`outline`='张纪中版西游记幕后纪录片',`pid`=9,`content`='<p>&nbsp; &nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121194897020.jpg\" style=\"float:none;\" title=\"暴风截图20145273023658.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195441388.jpg\" style=\"float:none;\" title=\"暴风截图20145272964112.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195134236.jpg\" style=\"float:none;\" title=\"暴风截图20145272983628.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195334409.jpg\" style=\"float:none;\" title=\"暴风截图20145272995359.jpg\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>' WHERE ( `id` = 215 ) [ RunTime:0.000520s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2014-05-27T00:21:44+08:00 ] 123.245.253.128 /admin.php/Web/updacase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000967s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000165s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 215 ) LIMIT 1   [ RunTime:0.000506s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020023s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000778s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2014-05-27T00:37:37+08:00 ] 123.245.253.128 /admin.php/Web/savecase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.009125s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='张纪中版西游记幕后纪录片',`lowertitle`='张纪中版西游记幕后纪录片剪辑',`outline`='张纪中版西游记幕后纪录片',`pid`=9,`content`='<p style=\"text-align: center;\"><embed type=\"application/x-shockwave-flash\" class=\"edui-faked-video\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" src=\"http://player.youku.com/player.php/sid/XNzE3NTg1MTcy/v.swf\" width=\"680\" height=\"400\" wmode=\"transparent\" play=\"true\" loop=\"false\" menu=\"false\" allowscriptaccess=\"never\" allowfullscreen=\"true\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121194897020.jpg\" style=\"float:none;\" title=\"暴风截图20145273023658.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195441388.jpg\" style=\"float:none;\" title=\"暴风截图20145272964112.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195134236.jpg\" style=\"float:none;\" title=\"暴风截图20145272983628.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195334409.jpg\" style=\"float:none;\" title=\"暴风截图20145272995359.jpg\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>' WHERE ( `id` = 215 ) [ RunTime:0.001258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2014-05-27T00:37:38+08:00 ] 123.245.253.128 /admin.php/Web/updacase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000602s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 215 ) LIMIT 1   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2014-05-27T00:38:58+08:00 ] 123.245.253.128 /admin.php/Web/savecase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001257s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='张纪中版西游记幕后纪录',`lowertitle`='张纪中版西游记幕后纪录片剪辑',`outline`='张纪中版西游记幕后纪录片',`pid`=9,`content`='<p style=\"text-align: center;\"><embed type=\"application/x-shockwave-flash\" class=\"edui-faked-video\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" src=\"http://player.youku.com/player.php/sid/XNzE3NTg1MTcy/v.swf\" width=\"680\" height=\"400\" wmode=\"transparent\" play=\"true\" loop=\"false\" menu=\"false\" allowscriptaccess=\"never\" allowfullscreen=\"true\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121194897020.jpg\" style=\"float:none;\" title=\"暴风截图20145273023658.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195441388.jpg\" style=\"float:none;\" title=\"暴风截图20145272964112.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195134236.jpg\" style=\"float:none;\" title=\"暴风截图20145272983628.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195334409.jpg\" style=\"float:none;\" title=\"暴风截图20145272995359.jpg\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>' WHERE ( `id` = 215 ) [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000380s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-05-27T00:39:00+08:00 ] 123.245.253.128 /admin.php/Web/updacase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000777s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 215 ) LIMIT 1   [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-05-27T00:39:08+08:00 ] 123.245.253.128 /admin.php/Web/savecase/id/215
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.003445s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='张纪中版西游记幕后纪录',`lowertitle`='张纪中版西游记幕后纪录片剪辑',`outline`='张纪中版西游记幕后纪录片',`pid`=9,`content`='<p style=\"text-align: center;\"><embed type=\"application/x-shockwave-flash\" class=\"edui-faked-video\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" src=\"http://player.youku.com/player.php/sid/XNzE3NTg1MTcy/v.swf\" width=\"680\" height=\"400\" wmode=\"transparent\" play=\"true\" loop=\"false\" menu=\"false\" allowscriptaccess=\"never\" allowfullscreen=\"true\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;大型古装魔幻巨制新版《西游记》讲述盘古开天辟地，一颗仙石迸生出的美猴王拜倒菩提门下，取名孙悟空，苦练成一身法术，却因大闹天宫闯下大祸，被如来佛祖压于五指山下[1]。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121194897020.jpg\" style=\"float:none;\" title=\"暴风截图20145273023658.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195441388.jpg\" style=\"float:none;\" title=\"暴风截图20145272964112.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195134236.jpg\" style=\"float:none;\" title=\"暴风截图20145272983628.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140527/1401121195334409.jpg\" style=\"float:none;\" title=\"暴风截图20145272995359.jpg\"/></p><p>&nbsp; &nbsp; &nbsp; &nbsp;五百年后，唐三藏到西方取经收伏孙悟空、猪八戒、沙悟净、小白龙作其徒弟和坐骑。四人紧随唐三藏上路，途中屡遇妖魔鬼怪，展开一段艰辛的取西经之旅。该剧总投资一亿元人民币，全剧尊重原著，加入了大量电脑特效。</p>' WHERE ( `id` = 215 ) [ RunTime:0.000733s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+

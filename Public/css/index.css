@@ -1,0 +1,21 @@
+body {
+	background:#cc0000;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin: 0;
+ padding: 0;
+}
+img{ border:0; margin:0; outline:none }
+table{
+       margin: auto;
+	   text-align:center;
+	   }
+div{ position:absolute; left:50%; top:50%; width:300px; height:200px; margin-left:-150px; margin-top:-100px;}
+*{
+	outline:none;
+	margin 0 auto;
+	}
+a{ cursor:pointer;blr:expression(this.onFocus=this.blur());}
+a{text-decoration:none;}
+.im_enter{ background:url(dian.png) no-repeat; width:134px; height:29px; margin-left:15px; }
+.im_enter img{ width:134px; height:29px;}
+.im_enter:hover{ background:url(dians.png) no-repeat}

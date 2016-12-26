@@ -1,0 +1,2324 @@
+[ 2014-05-07T21:11:30+08:00 ] 123.245.253.66 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+
+[ 2014-05-07T21:11:31+08:00 ] 123.245.253.66 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000429s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2014-05-07T21:14:59+08:00 ] 123.245.253.66 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.000712s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006458s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-05-07T21:15:01+08:00 ] 123.245.253.66 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018039s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2014-05-07T21:15:10+08:00 ] 123.245.253.66 /admin.php/Web/company
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000957s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `pid` = 0 )  [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014212s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2014-05-07T21:15:13+08:00 ] 123.245.253.66 /admin.php/Web/updac/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000121s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002348s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2014-05-07T21:15:59+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001108s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='入职流程',`lowertitle`='入职流程',`outline`='入职流程',`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/84521397277425.jpg\" title=\"RZLC_03.jpg\"/></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">1.</span></strong><strong><span style=\"font-size:14px;color:red\">发送简历：</span></strong><span style=\"font-size: 12px\">发送地址HR@longmamedia.com，可以去下载中心下载应聘人员登记表，填写后发送过来。</span></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">2.</span></strong><strong><span style=\"font-size:14px;color:red\">电话通知：</span></strong><span style=\"font-size: 12px\">公司电话号码0416-3234171</span></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">3.</span></strong><strong><span style=\"font-size:14px;color:red\">前来面试：</span></strong><span style=\"font-size: 12px\">听电话通知商定面试时间</span></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">4.</span></strong><strong><span style=\"font-size:14px;color:red\">职能测试：</span></strong><span style=\"font-size: 12px\">完成规定的任务试题</span></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">5.</span></strong><strong><span style=\"font-size:14px;color:red\">入职培训：</span></strong><span style=\"font-size: 12px\">填写《录用通知书》，学习《劳动合同保密竞业限制》、《员工手册》、《人事管理制度》，了解《离职清单》。</span></p><p style=\"margin-top:5px;margin-bottom:5px;margin-left: 0\"><strong><span style=\"font-size: 14px;color:red\">6.</span></strong><strong><span style=\"font-size:14px;color:red\">双向选择：</span></strong><span style=\"font-size: 12px\">一个星期的双向选择期，熟悉业务。</span></p><p style=\"margin-top: 5px; margin-bottom: 5px; margin-left: 0px;\"><strong><span style=\"font-size: 14px;color:red\">7.</span></strong><strong><span style=\"font-size:14px;color:red\">签订合同：</span></strong><span style=\"font-size: 12px\">签订合同，确认《员工守则》签字，确认《劳动合同保密竞业限制》签字。</span></p>' WHERE ( `id` = 4 ) [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2014-05-07T21:16:00+08:00 ] 123.245.253.66 /admin.php/Web/updac/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000923s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014940s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001030s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000612s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2014-05-07T21:19:37+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001188s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.009608s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035741s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000502s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2014-05-07T21:19:47+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000200s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 176 ) LIMIT 1   [ RunTime:0.000212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035785s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000990s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-05-07T21:24:06+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000991s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='新版网站上线',`lowertitle`='“龙马视艺”新版网站上线',`outline`='“龙马视艺”新版网站2014年4月上线',`pid`=25,`content`='<p>&nbsp; &nbsp; 龙马视艺官网与2014年4月中旬终于上线运营了，网站经历了几次大的UI创意修改，后台的框架开发，页面的优化兼容，现支持<a href=\"http://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/\" target=\"_blank\" title=\"IE11官方下载\">IE8以上</a>，<a href=\"http://www.google.cn/intl/zh-CN/chrome/browser/\" target=\"_blank\" title=\"谷歌浏览器官方下载\">谷歌浏览器</a>，<a href=\"http://www.firefox.com.cn/download/\" target=\"_blank\" title=\"火狐浏览器官方下载\">火狐浏览器</a>，国内的主流浏览器：<a href=\"http://se.360.cn/\" target=\"_blank\" title=\"360浏览器\">360浏览器</a>，<a href=\"http://ie.sogou.com/\" target=\"_blank\" title=\"搜狗浏览器\">搜狗</a>，<a href=\"http://browser.qq.com/index_m.html\" target=\"_blank\" title=\"QQ浏览器\">QQ</a>，<a href=\"http://liulanqi.baidu.com/\" target=\"_blank\" title=\"百度浏览器\">百度</a>等。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/21871399469027.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_04.jpg\"/></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\">&nbsp; &nbsp; 早期版没有引导文字，只是展示等待作用。新版增加了例如：专业成就您的品牌传播力等欢迎用语和劳动节假期：5月1日—5月3日等信息类语言，增加了实用性。</span></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/11541399469031.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_03.jpg\"/></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\">&nbsp; &nbsp; 早期版采用圆角样式，和图片直角样式不统一，相信最新的ios7也是考虑到这一点。新版统一直角应用，统一了美观度和兼容性。</span><span style=\"color: rgb(127, 127, 127);\">首页案例样式有局限，不直观，总是要在二次交互时才能看见，用户体验不好。新版直接看到案例的拼版样式，一键点击直接进入具体的案例介绍更直观不复杂。早期版</span><span style=\"color: rgb(127, 127, 127);\">右侧按钮的样式不直观，功能分布混乱而新版分布的更直观，用户一看就可以知道功能，符合右手操作习惯，但在实际操作中又出现过几个版本，解决了一些问题，例如按钮样式修改，按钮遮挡的优化解决方式等。</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\"></span></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/22891399469033.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_08.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52591399469034.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_09.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/36361399469034.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_05.jpg\"/></p><p>&nbsp; &nbsp; 二级列表页面也做了比较大的修改，包括分布样式，案例数，案例的样式等。增加了案例的缩略简介等。下载和新闻页面也做了和其他二级页面一样的样式。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/85041399469035.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_06.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/49131399469036.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_07.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/78561399469036.jpg\" title=\"xinbanwangzhan_10.jpg\"/></p>' WHERE ( `id` = 176 ) [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2014-05-07T21:24:07+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000717s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001025s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 176 ) LIMIT 1   [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000434s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-05-07T21:28:47+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000834s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001481s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004916s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2014-05-07T21:28:53+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000111s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-05-07T21:34:22+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001014s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='公关广宣应用',`lowertitle`='公关广宣应用',`outline`='公关广宣应用业务介绍',`pid`=25,`content`='<p>&nbsp; &nbsp;品牌传播的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的多方位的品牌声浪。广告策划及设计的本质是传播，广告的灵魂是创意。广告策划主要包括为各种论坛、会议、庆典、发布会等提供主题形象、背景板、签到板、视频片、邀请函、易拉宝、工作证、门票、证书、展架、POP、折页、礼品等物料设计和制作。宣传册已经由最基本的信息传递功能上升到品牌形象和企业风格精神的重要体现方式之一。我们在以品牌定位和视觉定位的基础上，为客户提供从画册整体风格设计、内页排版、纸张及印刷工艺建议等服务，传递企业精神和提升品牌形象。</p>',`pic`='536a365ecffdb.jpg' WHERE ( `id` = 181 ) [ RunTime:0.002089s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000362s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-05-07T21:34:24+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000684s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2014-05-07T21:56:02+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001341s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 181 ) [ RunTime:0.009621s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a3b725ea48.jpg','','',181) [ RunTime:0.001151s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a3b725f480.jpg','','',181) [ RunTime:0.006693s ]
+SQL: UPDATE `lm_company` SET `title`='公关广宣应用',`lowertitle`='公关广宣应用',`outline`='公关广宣应用业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399470952206942.jpg\" title=\"GGGX_03.jpg\"/></p><p>&nbsp; &nbsp; 品牌传播的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的多方位的品牌声浪。广告策划及设计的本质是传播，广告的灵魂是创意。广告策划主要包括为各种论坛、会议、庆典、发布会等提供主题形象、背景板、签到板、视频片、邀请函、易拉宝、工作证、门票、证书、展架、POP、折页、礼品等物料设计和制作。宣传册已经由最基本的信息传递功能上升到品牌形象和企业风格精神的重要体现方式之一。我们在以品牌定位和视觉定位的基础上，为客户提供从画册整体风格设计、内页排版、纸张及印刷工艺建议等服务，传递企业精神和提升品牌形象。</p>',`pic`='536a3b7260426.jpg' WHERE ( `id` = 181 ) [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2014-05-07T21:56:03+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.004541s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020169s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-05-07T21:56:56+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000942s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.004278s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 181 ) [ RunTime:0.000651s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a3ba814c91.jpg','','',181) [ RunTime:0.000290s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a3ba815e2b.jpg','','',181) [ RunTime:0.000278s ]
+SQL: UPDATE `lm_company` SET `title`='公关广宣应用',`lowertitle`='公关广宣应用',`outline`='公关广宣应用业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399470952206942.jpg\" title=\"GGGX_03.jpg\"/></p><p>&nbsp; &nbsp; 品牌传播的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的多方位的品牌声浪。广告策划及设计的本质是传播，广告的灵魂是创意。广告策划主要包括为各种论坛、会议、庆典、发布会等提供主题形象、背景板、签到板、视频片、邀请函、易拉宝、工作证、门票、证书、展架、POP、折页、礼品等物料设计和制作。宣传册已经由最基本的信息传递功能上升到品牌形象和企业风格精神的重要体现方式之一。我们在以品牌定位和视觉定位的基础上，为客户提供从画册整体风格设计、内页排版、纸张及印刷工艺建议等服务，传递企业精神和提升品牌形象。</p>' WHERE ( `id` = 181 ) [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-05-07T21:56:57+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000167s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.000214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000886s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-05-07T22:28:34+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000874s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001949s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2014-05-07T22:28:41+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000154s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-05-07T22:31:56+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.012853s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000715s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 179 ) [ RunTime:0.000331s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a43dc6393f.jpg','','',179) [ RunTime:0.000309s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a43dc6412b.jpg','','',179) [ RunTime:0.000167s ]
+SQL: UPDATE `lm_company` SET `title`='商业空间+导视',`lowertitle`='商业空间+导视',`outline`='商业空间+导视业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399473113605347.jpg\" title=\"SYKJ_03.jpg\"/></p><p>&nbsp;&nbsp; &nbsp;环境空间能够将企业文化和品牌经营理念推向顾客的眼前，变成顾客看得见的企业，摸得着的品牌。因此，环境空间承载着品牌延续的重要任务。会展是围绕特定主题集合多人在特定时空的集聚交流活动，是空间展示的特定方向。导示系统肩负着沟通环境与人的功能。完美的导示系统需要兼具功能与情感两个方面的要求，不仅需要提供准确的信息，同时在强调功能的基础上要更多的表现企业或者品牌的特性与主张。通过对建筑空间充分的调查研究，对人流动线的科学分析，从而进行导示系统的布点及落位的规划，实现功能需求。通过对物的接触感受，对人文的分析理解，实现情感需求。空间导示系统设计的客户对象包括写字楼，住宅或园区、商业广场、大型建筑、公共服务（医院、公园、机场、交通枢纽站等）。</p><p><br/></p><p><br/></p><p><br/></p>',`pic`='536a43dc64914.jpg' WHERE ( `id` = 179 ) [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-05-07T22:31:57+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001218s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000804s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015542s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002604s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-05-07T22:34:52+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001181s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='商业空间+导视',`lowertitle`='商业空间+导视',`outline`='商业空间+导视业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/28061399473254.jpg\" title=\"SYKJ_03.jpg\"/></p><p>&nbsp;&nbsp; &nbsp;环境空间能够将企业文化和品牌经营理念推向顾客的眼前，变成顾客看得见的企业，摸得着的品牌。因此，环境空间承载着品牌延续的重要任务。会展是围绕特定主题集合多人在特定时空的集聚交流活动，是空间展示的特定方向。导示系统肩负着沟通环境与人的功能。完美的导示系统需要兼具功能与情感两个方面的要求，不仅需要提供准确的信息，同时在强调功能的基础上要更多的表现企业或者品牌的特性与主张。通过对建筑空间充分的调查研究，对人流动线的科学分析，从而进行导示系统的布点及落位的规划，实现功能需求。通过对物的接触感受，对人文的分析理解，实现情感需求。空间导示系统设计的客户对象包括写字楼，住宅或园区、商业广场、大型建筑、公共服务（医院、公园、机场、交通枢纽站等）。</p>' WHERE ( `id` = 179 ) [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2014-05-07T22:34:54+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000579s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000203s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000770s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2014-05-07T22:35:33+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000808s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='商业空间+导视',`lowertitle`='商业空间+导视',`outline`='商业空间+导视业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399473330112068.jpg\" title=\"SYKJ_03.jpg\"/></p><p>&nbsp;&nbsp; &nbsp;环境空间能够将企业文化和品牌经营理念推向顾客的眼前，变成顾客看得见的企业，摸得着的品牌。因此，环境空间承载着品牌延续的重要任务。会展是围绕特定主题集合多人在特定时空的集聚交流活动，是空间展示的特定方向。导示系统肩负着沟通环境与人的功能。完美的导示系统需要兼具功能与情感两个方面的要求，不仅需要提供准确的信息，同时在强调功能的基础上要更多的表现企业或者品牌的特性与主张。通过对建筑空间充分的调查研究，对人流动线的科学分析，从而进行导示系统的布点及落位的规划，实现功能需求。通过对物的接触感受，对人文的分析理解，实现情感需求。空间导示系统设计的客户对象包括写字楼，住宅或园区、商业广场、大型建筑、公共服务（医院、公园、机场、交通枢纽站等）。</p>' WHERE ( `id` = 179 ) [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2014-05-07T22:35:34+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000547s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-05-07T22:41:47+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001025s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001442s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2014-05-07T22:41:52+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000207s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-05-07T22:47:44+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000705s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 180 ) [ RunTime:0.000464s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a47900d07d.jpg','','',180) [ RunTime:0.000324s ]
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399474005101898.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实、详尽地提供资料，充分收集与消化客户企业相关资料，调研其竟争对方的市场表 &nbsp; &nbsp; &nbsp;现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>',`pic`='536a47900d86f.jpg' WHERE ( `id` = 180 ) [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000565s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2014-05-07T22:47:45+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2014-05-07T22:49:28+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68221399474165.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实详尽地提供资料，充分收集与消化客户相关资料，调研其竟争对方的市场表现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>' WHERE ( `id` = 180 ) [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2014-05-07T22:49:29+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000752s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000182s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015943s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2014-05-07T22:49:48+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001547s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68221399474165.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实详尽地提供资料，充分收集与消化客户相关资料，调研其竟争对方的市场表现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>' WHERE ( `id` = 180 ) [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001283s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2014-05-07T22:49:49+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000541s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000193s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2014-05-07T22:56:19+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.002569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014497s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001703s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-05-07T22:56:24+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000734s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2014-05-07T22:56:36+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001021s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-family: 宋体, SimSun;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>',`pic`='536a49a458168.jpg' WHERE ( `id` = 177 ) [ RunTime:0.002177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000590s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001958s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2014-05-07T22:56:37+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000679s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000538s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-05-07T22:59:36+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000905s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016451s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2014-05-07T22:59:39+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000102s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000959s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2014-05-07T22:59:53+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001799s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='产品包装',`lowertitle`='产品包装',`outline`='产品包装业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52461398063840.jpg\" title=\"baozhuang_03.jpg\"/></p><p>&nbsp; &nbsp; 产品设计是产品利润增长，企业获得成功的重要手段。我们具备全面的产品造型和包装设计能力，从市场的角度来审视产品，用营销的目光洞悉消费。我们会从行业属性、消费认知、企业支持、产品卖点、竞品区隔、终端展示进行全方位的研究工作，并经过科学的整理与分析，得出有针对性的结论，为产品的市场定位、产品卖点的提炼、产品的营销推广策略提供有力的支撑，为产品包装设计、产品造型设计、系列包装系统化设计提供最有效的信息。产品命名及包装设计产品名称是产品体系的重要构件和有机组成部分。好名称便于消费者记忆，并形成有效传播。好的包装能让产品脱颖而出，赢得更多的消费青睐。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装可以包括多达三个层次的材料。第一层次的包装是指最接近产品的容器。例如，装有“修面后除香洗净液”的瓶子是最接近产品的包装。第二层次的包装是指保护第一层次包装的材料，当产品使用时，它即被丢弃。用来包装瓶装的“修面后洗净液”的硬纸板盒就属于第二层次的包装，它为产品提供了进一步的保护和促销机会。输包装是指产品储存、辨认和运输时所必需的包装。如装有六打“修面后陈香洗净液”的波纹盒就是运输包装。</span></p><p><strong><span style=\"font-family:宋体\"> &nbsp; &nbsp;为新产品制定有效的包装，这需要作出大量的决策。</span></strong></p><p><strong style=\"font-family: 宋体;\">&nbsp; &nbsp; 第一，建立包装化概念。</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装化概念的定义是，规定包装基本上应为何物，或为一个特定产品起什么作用。包装的主要作用应为优质产品提供保护，引进一个新颖的使用方式，提示产品或公司的某种质量，或者是其他某些作用。</span><span style=\"font-family: 宋体;\">通用食品公司开发了一种新颖的狗食品，其形状象小肉馅饼。管理当局决定要最大限度使人们看到这些个馅饼所具有的独特的和可口的外表。可见性是作为包装化的基本构思加以规定的，管理当局就是据此考虑了若干包装物方案。该公司最后选定在盘子上覆盖一层透明薄膜的包装方式。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 此外，还必须为包装设计的其他要素作出决策，如包装物的大小，形状，材料，色彩，文字说明，以及品牌标记。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 决策的内容还必须包括：大量的文字说明还是少量的文字说明，采用玻璃纸或其他透明的薄膜，塑料的或薄片状的盘子，等等。包装化的各个要素必须相互协调。包装大小涉及包装材料和色彩等。包装化的要素也必须和订价、广告和其他市场营销要素相互协调。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装一经设计好后，必须进行一些试验。进行工程技术测试的目的是为了保证包装在正常情况下经得起磨损；进行消费者测试的目的是为了保证赢得有利的消费者反应。</span><span style=\"font-family: 宋体;\">并且，即使预先采取了这些试验措施，但是包装设计有时还会存在某种根本性的缺陷：比如，一个食品公司开发出一种加压的烤肉汁罐头，定名为“喷喷喷雾罐头”，在市场试验中发现包装有潜在的祸患：“我们原以为我们有了一个好罐头，但是，我们幸好最初只在德克萨斯州和加里福尼亚州的商店里进行试销。这些罐头一旦加温，它们就开始爆炸。</span> <span style=\"font-family: 宋体;\">因为我们没有在全国各地销售，所以我们的损失仅为</span>15<span style=\"font-family: 宋体;\">万美元，而不是几百万美元．”</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 为某新产品设计效果良好的包装可能要化费数十万美元，并需要数月以至于一年的时间。不能因为看到包装化在吸引和满足消费者方面能起到一些作用，而过分强调包装化的重要性。但公司应该注意到，社会对包装化已日益关注，公司应作出相应的决策，来为社会利益服务，并为眼前的顾客和公司的目标服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>此外，产品包装也有一些基本原则：</strong></span></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、适用原则。包装的主要目的是保护商品。因此，首先要根据产品的不同性质和特点，合理地选用包装材料和包装技术，确保产品不损坏、不变质、不变形等，尽量使用符合环保标准的包装材料；其次要合理设计包装，便于运输等。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、美观原则。销售包装具有美化商品的作用，因此在设计上要求外形新颖、大方、美观，具有较强的艺术性。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、经济原则。在符合营销策略的前提下，应尽量降低包装成本。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、环保原则。产品包装要符合环境保护的要求，不会对自然环境造成污染。包装可回收或者可以有多种用途，可以多次使用。或者可以有重新装满使用的功能。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp;产品包装的几种策略</span></strong></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、类似包装，即企业所有产品的包装，在图案、色彩等方面，均采用同一的形式。这种方法，可以降低包装的成本，扩大企业的影响，特别是在推出新产品时，可以利用企业的声誉，使顾客首先从包装上辨认出产品，迅速打开市场。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、组合包装，即把若干有关联的产品，包装在同一容器中。如化妆品的组合包装、节日礼品盒包装等，都属于这种包装方法。组合包装不仅能促进消费者的购买，也有利于企业推销产品，特别是推销新产品时，可将其与老产品组合出售，创造条件使消费者接受、试用。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、附赠品包装。这种包装的主要方法是在包装物中附赠一些物品，从而引起消费者的购买兴趣，有时，还能造成顾客重复购买的意愿。例如在珍珠霜盒里放一颗珍珠，顾客买了一定数量之后就能串成一根项链。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、再使用包装。这种包装物在产品使用完后，还可做别的用处。这样，购买者可以得到一种额外的满足，从而激发其购买产品的欲望。如设计精巧的果酱瓶，在果酱吃完后可以作茶杯之用。包装物在继续使用过程中，实际还起了经常性的广告作用，增加了顾客重复购买的可能。</span></p><p>&nbsp; &nbsp; 5<span style=\"font-family:宋体\">、分组包装，即对同一种产品，可以根据顾客的不同需要，采用不同级别的包装。如用作礼品，则可以精致地包装，若自己使用，则只需简单包扎。此外，对不同等级的产品，也可采用不同包装。高档产品，包装精致些，表示产品的身份；中低档产品，包装简略些，以减少产品成本。</span></p><p>&nbsp; &nbsp; 6<span style=\"font-family:宋体\">、改变包装。当由于某种原因使产品销量下降，市场声誉跌落时，企业可以在改进产品质量的同时，改变包装的形式，从而以新的产品形象出现在市场，改变产品在消费者心目中的不良地位。这种做法，有利于迅速恢复企业声誉，重新扩大市场份额。</span></p><p><span style=\"font-family:宋体\">&nbsp;<strong> &nbsp; 产品包装说明</strong></span></p><p>&nbsp; &nbsp;<span style=\"font-family: 宋体;\">产品的包装说明是包装的重要组成部分，它在宣传产品功效、争取消费者了解、指导人们正确消费方面有重大作用。</span></p><p>&nbsp; &nbsp;<strong> 1<span style=\"font-family:宋体\">、包装标签</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装标签是指附着或系挂在产品销售包装上的文字、图形、雕刻及印制的说明。标签可以是附着在产品上的简易签条，也可以是精心设计的作为包装的一部分的图案。标签可能仅标有品名，也可能载有许多信息，能用来识别、检验内装产品，同时也可以起到促销作用。</span></p><p><span style=\"font-family:宋体\">通常，产品标签主要包括：制造者或销售者的名称和地址、产品名称、商标、成分、品质特点、包装内产品数量、使用方法及用量、编号、贮藏应注意的事项、质检号、生产日期和有效期等内容。值得提及的是，印有彩色图案或实物照片的标签有明显的促销功效。</span></p><p>&nbsp; &nbsp; <strong>2<span style=\"font-family:宋体\">、包装标志</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 是在运输包装的外部印制的图形、文字和数字以及它们的组合。包装标志主要有运输标志、指示性标志、警告性标志三种。运输标志又称为唛头</span>(Mark)<span style=\"font-family:宋体\">，是指在产品外包装上印制的反映收货人和发货人、目的地或中转地、件号、批号、产地等内容的几何图形、特定字母、数字和简短的文字等。指示性标志是根据产品的特性，对一些容易破碎、残损、变质的产品，用醒目的图形和简单的文字做出的标志。指示性标志指示有关人员在装卸、搬运、储存、作业中引起注意，常见的有“此端向上”、“易碎”、“小心轻放”、“由此吊起”等。警告性标志是指在易燃品、易爆品、腐蚀性物品和放射性物品等危险品的运输包装上印制特殊的文字，以示警告。常见的有“爆炸品”、“易燃品”、“有毒品”等。</span></p>',`pic`='536a4a697b9bb.jpg' WHERE ( `id` = 178 ) [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007453s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000683s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-05-07T22:59:54+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000540s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-05-07T23:01:07+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000975s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014725s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001326s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002979s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2014-05-07T23:01:14+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000434s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 176 ) LIMIT 1   [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2014-05-07T23:01:21+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000998s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='新版网站上线',`lowertitle`='“龙马视艺”新版网站上线',`outline`='“龙马视艺”新版网站2014年4月上线',`pid`=25,`content`='<p>&nbsp; &nbsp; 龙马视艺官网与2014年4月中旬终于上线运营了，网站经历了几次大的UI创意修改，后台的框架开发，页面的优化兼容，现支持<a href=\"http://windows.microsoft.com/zh-cn/internet-explorer/ie-11-worldwide-languages/\" target=\"_blank\" title=\"IE11官方下载\">IE8以上</a>，<a href=\"http://www.google.cn/intl/zh-CN/chrome/browser/\" target=\"_blank\" title=\"谷歌浏览器官方下载\">谷歌浏览器</a>，<a href=\"http://www.firefox.com.cn/download/\" target=\"_blank\" title=\"火狐浏览器官方下载\">火狐浏览器</a>，国内的主流浏览器：<a href=\"http://se.360.cn/\" target=\"_blank\" title=\"360浏览器\">360浏览器</a>，<a href=\"http://ie.sogou.com/\" target=\"_blank\" title=\"搜狗浏览器\">搜狗</a>，<a href=\"http://browser.qq.com/index_m.html\" target=\"_blank\" title=\"QQ浏览器\">QQ</a>，<a href=\"http://liulanqi.baidu.com/\" target=\"_blank\" title=\"百度浏览器\">百度</a>等。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/21871399469027.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_04.jpg\"/></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\">&nbsp; &nbsp; 早期版没有引导文字，只是展示等待作用。新版增加了例如：专业成就您的品牌传播力等欢迎用语和劳动节假期：5月1日—5月3日等信息类语言，增加了实用性。</span></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/11541399469031.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_03.jpg\"/></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\">&nbsp; &nbsp; 早期版采用圆角样式，和图片直角样式不统一，相信最新的ios7也是考虑到这一点。新版统一直角应用，统一了美观度和兼容性。</span><span style=\"color: rgb(127, 127, 127);\">首页案例样式有局限，不直观，总是要在二次交互时才能看见，用户体验不好。新版直接看到案例的拼版样式，一键点击直接进入具体的案例介绍更直观不复杂。早期版</span><span style=\"color: rgb(127, 127, 127);\">右侧按钮的样式不直观，功能分布混乱而新版分布的更直观，用户一看就可以知道功能，符合右手操作习惯，但在实际操作中又出现过几个版本，解决了一些问题，例如按钮样式修改，按钮遮挡的优化解决方式等。</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(127, 127, 127);\"></span></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/22891399469033.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_08.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52591399469034.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_09.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/36361399469034.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_05.jpg\"/></p><p>&nbsp; &nbsp; 二级列表页面也做了比较大的修改，包括分布样式，案例数，案例的样式等。增加了案例的缩略简介等。下载和新闻页面也做了和其他二级页面一样的样式。</p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/85041399469035.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_06.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/49131399469036.jpg\" style=\"float:none;\" title=\"xinbanwangzhan_07.jpg\"/></p><p style=\"text-align: center;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/78561399469036.jpg\" title=\"xinbanwangzhan_10.jpg\"/></p>',`pic`='536a4ac1cb065.jpg' WHERE ( `id` = 176 ) [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-05-07T23:01:22+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/176
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000570s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000169s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 176 ) LIMIT 1   [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000787s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2014-05-07T23:03:22+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000855s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001019s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016123s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001269s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-05-07T23:03:26+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001250s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001236s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2014-05-07T23:03:35+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000654s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='商业空间+导视',`lowertitle`='商业空间+导视',`outline`='商业空间+导视业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399473330112068.jpg\" title=\"SYKJ_03.jpg\"/></p><p>&nbsp;&nbsp; &nbsp;环境空间能够将企业文化和品牌经营理念推向顾客的眼前，变成顾客看得见的企业，摸得着的品牌。因此，环境空间承载着品牌延续的重要任务。会展是围绕特定主题集合多人在特定时空的集聚交流活动，是空间展示的特定方向。导示系统肩负着沟通环境与人的功能。完美的导示系统需要兼具功能与情感两个方面的要求，不仅需要提供准确的信息，同时在强调功能的基础上要更多的表现企业或者品牌的特性与主张。通过对建筑空间充分的调查研究，对人流动线的科学分析，从而进行导示系统的布点及落位的规划，实现功能需求。通过对物的接触感受，对人文的分析理解，实现情感需求。空间导示系统设计的客户对象包括写字楼，住宅或园区、商业广场、大型建筑、公共服务（医院、公园、机场、交通枢纽站等）。</p>',`pic`='536a4b4749431.jpg' WHERE ( `id` = 179 ) [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2014-05-07T23:03:36+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/179
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000173s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 179 ) LIMIT 1   [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-05-07T23:04:55+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000989s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.003262s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014896s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2014-05-07T23:05:01+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000387s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000589s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000101s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2014-05-07T23:05:09+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001152s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68221399474165.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实详尽地提供资料，充分收集与消化客户相关资料，调研其竟争对方的市场表现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>',`pic`='536a4ba55043f.jpg' WHERE ( `id` = 180 ) [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2014-05-07T23:05:10+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000764s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000264s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-05-07T23:05:54+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001162s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68221399474165.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实详尽地提供资料，充分收集与消化客户相关资料，调研其竟争对方的市场表现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>',`pic`='536a4bd229bbb.jpg' WHERE ( `id` = 180 ) [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081301s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.044889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000890s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003751s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2014-05-07T23:05:55+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.013499s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.070861s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.022390s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.022648s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.019830s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030087s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2014-05-07T23:07:29+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000455s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003031s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2014-05-07T23:07:33+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001163s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001227s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013846s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2014-05-07T23:07:41+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001098s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='公关广宣应用',`lowertitle`='公关广宣应用',`outline`='公关广宣应用业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399470952206942.jpg\" title=\"GGGX_03.jpg\"/></p><p>&nbsp; &nbsp; 品牌传播的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的多方位的品牌声浪。广告策划及设计的本质是传播，广告的灵魂是创意。广告策划主要包括为各种论坛、会议、庆典、发布会等提供主题形象、背景板、签到板、视频片、邀请函、易拉宝、工作证、门票、证书、展架、POP、折页、礼品等物料设计和制作。宣传册已经由最基本的信息传递功能上升到品牌形象和企业风格精神的重要体现方式之一。我们在以品牌定位和视觉定位的基础上，为客户提供从画册整体风格设计、内页排版、纸张及印刷工艺建议等服务，传递企业精神和提升品牌形象。</p>',`pic`='536a4c3d046f1.jpg' WHERE ( `id` = 181 ) [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006805s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-05-07T23:07:42+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000176s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000846s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2014-05-07T23:08:14+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001951s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='公关广宣应用',`lowertitle`='公关广宣应用',`outline`='公关广宣应用业务介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140507/1399470952206942.jpg\" title=\"GGGX_03.jpg\"/></p><p>&nbsp; &nbsp; 品牌传播的最终目的就是要发挥创意的力量，利用各种有效发声点在市场上形成统一的多方位的品牌声浪。广告策划及设计的本质是传播，广告的灵魂是创意。广告策划主要包括为各种论坛、会议、庆典、发布会等提供主题形象、背景板、签到板、视频片、邀请函、易拉宝、工作证、门票、证书、展架、POP、折页、礼品等物料设计和制作。宣传册已经由最基本的信息传递功能上升到品牌形象和企业风格精神的重要体现方式之一。我们在以品牌定位和视觉定位的基础上，为客户提供从画册整体风格设计、内页排版、纸张及印刷工艺建议等服务，传递企业精神和提升品牌形象。</p>',`pic`='536a4c5e0020c.jpg' WHERE ( `id` = 181 ) [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006247s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2014-05-07T23:08:15+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/181
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000763s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 181 ) LIMIT 1   [ RunTime:0.001461s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2014-05-07T23:09:04+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001944s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001141s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-05-07T23:09:11+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000556s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000220s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-07T23:09:20+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000925s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-family: 宋体, SimSun;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>',`pic`='536a4ca0945de.jpg' WHERE ( `id` = 177 ) [ RunTime:0.001426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006809s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000494s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2014-05-07T23:09:21+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000620s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000103s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015470s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000412s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2014-05-07T23:10:53+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001124s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003098s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-05-07T23:10:58+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000552s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001482s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-05-07T23:11:05+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000841s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='产品包装',`lowertitle`='产品包装',`outline`='产品包装业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52461398063840.jpg\" title=\"baozhuang_03.jpg\"/></p><p>&nbsp; &nbsp; 产品设计是产品利润增长，企业获得成功的重要手段。我们具备全面的产品造型和包装设计能力，从市场的角度来审视产品，用营销的目光洞悉消费。我们会从行业属性、消费认知、企业支持、产品卖点、竞品区隔、终端展示进行全方位的研究工作，并经过科学的整理与分析，得出有针对性的结论，为产品的市场定位、产品卖点的提炼、产品的营销推广策略提供有力的支撑，为产品包装设计、产品造型设计、系列包装系统化设计提供最有效的信息。产品命名及包装设计产品名称是产品体系的重要构件和有机组成部分。好名称便于消费者记忆，并形成有效传播。好的包装能让产品脱颖而出，赢得更多的消费青睐。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装可以包括多达三个层次的材料。第一层次的包装是指最接近产品的容器。例如，装有“修面后除香洗净液”的瓶子是最接近产品的包装。第二层次的包装是指保护第一层次包装的材料，当产品使用时，它即被丢弃。用来包装瓶装的“修面后洗净液”的硬纸板盒就属于第二层次的包装，它为产品提供了进一步的保护和促销机会。输包装是指产品储存、辨认和运输时所必需的包装。如装有六打“修面后陈香洗净液”的波纹盒就是运输包装。</span></p><p><strong><span style=\"font-family:宋体\"> &nbsp; &nbsp;为新产品制定有效的包装，这需要作出大量的决策。</span></strong></p><p><strong style=\"font-family: 宋体;\">&nbsp; &nbsp; 第一，建立包装化概念。</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装化概念的定义是，规定包装基本上应为何物，或为一个特定产品起什么作用。包装的主要作用应为优质产品提供保护，引进一个新颖的使用方式，提示产品或公司的某种质量，或者是其他某些作用。</span><span style=\"font-family: 宋体;\">通用食品公司开发了一种新颖的狗食品，其形状象小肉馅饼。管理当局决定要最大限度使人们看到这些个馅饼所具有的独特的和可口的外表。可见性是作为包装化的基本构思加以规定的，管理当局就是据此考虑了若干包装物方案。该公司最后选定在盘子上覆盖一层透明薄膜的包装方式。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 此外，还必须为包装设计的其他要素作出决策，如包装物的大小，形状，材料，色彩，文字说明，以及品牌标记。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 决策的内容还必须包括：大量的文字说明还是少量的文字说明，采用玻璃纸或其他透明的薄膜，塑料的或薄片状的盘子，等等。包装化的各个要素必须相互协调。包装大小涉及包装材料和色彩等。包装化的要素也必须和订价、广告和其他市场营销要素相互协调。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装一经设计好后，必须进行一些试验。进行工程技术测试的目的是为了保证包装在正常情况下经得起磨损；进行消费者测试的目的是为了保证赢得有利的消费者反应。</span><span style=\"font-family: 宋体;\">并且，即使预先采取了这些试验措施，但是包装设计有时还会存在某种根本性的缺陷：比如，一个食品公司开发出一种加压的烤肉汁罐头，定名为“喷喷喷雾罐头”，在市场试验中发现包装有潜在的祸患：“我们原以为我们有了一个好罐头，但是，我们幸好最初只在德克萨斯州和加里福尼亚州的商店里进行试销。这些罐头一旦加温，它们就开始爆炸。</span> <span style=\"font-family: 宋体;\">因为我们没有在全国各地销售，所以我们的损失仅为</span>15<span style=\"font-family: 宋体;\">万美元，而不是几百万美元．”</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 为某新产品设计效果良好的包装可能要化费数十万美元，并需要数月以至于一年的时间。不能因为看到包装化在吸引和满足消费者方面能起到一些作用，而过分强调包装化的重要性。但公司应该注意到，社会对包装化已日益关注，公司应作出相应的决策，来为社会利益服务，并为眼前的顾客和公司的目标服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>此外，产品包装也有一些基本原则：</strong></span></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、适用原则。包装的主要目的是保护商品。因此，首先要根据产品的不同性质和特点，合理地选用包装材料和包装技术，确保产品不损坏、不变质、不变形等，尽量使用符合环保标准的包装材料；其次要合理设计包装，便于运输等。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、美观原则。销售包装具有美化商品的作用，因此在设计上要求外形新颖、大方、美观，具有较强的艺术性。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、经济原则。在符合营销策略的前提下，应尽量降低包装成本。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、环保原则。产品包装要符合环境保护的要求，不会对自然环境造成污染。包装可回收或者可以有多种用途，可以多次使用。或者可以有重新装满使用的功能。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp;产品包装的几种策略</span></strong></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、类似包装，即企业所有产品的包装，在图案、色彩等方面，均采用同一的形式。这种方法，可以降低包装的成本，扩大企业的影响，特别是在推出新产品时，可以利用企业的声誉，使顾客首先从包装上辨认出产品，迅速打开市场。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、组合包装，即把若干有关联的产品，包装在同一容器中。如化妆品的组合包装、节日礼品盒包装等，都属于这种包装方法。组合包装不仅能促进消费者的购买，也有利于企业推销产品，特别是推销新产品时，可将其与老产品组合出售，创造条件使消费者接受、试用。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、附赠品包装。这种包装的主要方法是在包装物中附赠一些物品，从而引起消费者的购买兴趣，有时，还能造成顾客重复购买的意愿。例如在珍珠霜盒里放一颗珍珠，顾客买了一定数量之后就能串成一根项链。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、再使用包装。这种包装物在产品使用完后，还可做别的用处。这样，购买者可以得到一种额外的满足，从而激发其购买产品的欲望。如设计精巧的果酱瓶，在果酱吃完后可以作茶杯之用。包装物在继续使用过程中，实际还起了经常性的广告作用，增加了顾客重复购买的可能。</span></p><p>&nbsp; &nbsp; 5<span style=\"font-family:宋体\">、分组包装，即对同一种产品，可以根据顾客的不同需要，采用不同级别的包装。如用作礼品，则可以精致地包装，若自己使用，则只需简单包扎。此外，对不同等级的产品，也可采用不同包装。高档产品，包装精致些，表示产品的身份；中低档产品，包装简略些，以减少产品成本。</span></p><p>&nbsp; &nbsp; 6<span style=\"font-family:宋体\">、改变包装。当由于某种原因使产品销量下降，市场声誉跌落时，企业可以在改进产品质量的同时，改变包装的形式，从而以新的产品形象出现在市场，改变产品在消费者心目中的不良地位。这种做法，有利于迅速恢复企业声誉，重新扩大市场份额。</span></p><p><span style=\"font-family:宋体\">&nbsp;<strong> &nbsp; 产品包装说明</strong></span></p><p>&nbsp; &nbsp;<span style=\"font-family: 宋体;\">产品的包装说明是包装的重要组成部分，它在宣传产品功效、争取消费者了解、指导人们正确消费方面有重大作用。</span></p><p>&nbsp; &nbsp;<strong> 1<span style=\"font-family:宋体\">、包装标签</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装标签是指附着或系挂在产品销售包装上的文字、图形、雕刻及印制的说明。标签可以是附着在产品上的简易签条，也可以是精心设计的作为包装的一部分的图案。标签可能仅标有品名，也可能载有许多信息，能用来识别、检验内装产品，同时也可以起到促销作用。</span></p><p><span style=\"font-family:宋体\">通常，产品标签主要包括：制造者或销售者的名称和地址、产品名称、商标、成分、品质特点、包装内产品数量、使用方法及用量、编号、贮藏应注意的事项、质检号、生产日期和有效期等内容。值得提及的是，印有彩色图案或实物照片的标签有明显的促销功效。</span></p><p>&nbsp; &nbsp; <strong>2<span style=\"font-family:宋体\">、包装标志</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 是在运输包装的外部印制的图形、文字和数字以及它们的组合。包装标志主要有运输标志、指示性标志、警告性标志三种。运输标志又称为唛头</span>(Mark)<span style=\"font-family:宋体\">，是指在产品外包装上印制的反映收货人和发货人、目的地或中转地、件号、批号、产地等内容的几何图形、特定字母、数字和简短的文字等。指示性标志是根据产品的特性，对一些容易破碎、残损、变质的产品，用醒目的图形和简单的文字做出的标志。指示性标志指示有关人员在装卸、搬运、储存、作业中引起注意，常见的有“此端向上”、“易碎”、“小心轻放”、“由此吊起”等。警告性标志是指在易燃品、易爆品、腐蚀性物品和放射性物品等危险品的运输包装上印制特殊的文字，以示警告。常见的有“爆炸品”、“易燃品”、“有毒品”等。</span></p>',`pic`='536a4d094f2f1.jpg' WHERE ( `id` = 178 ) [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007133s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000491s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2014-05-07T23:11:06+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000169s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002711s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-05-07T23:11:38+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001182s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='产品包装',`lowertitle`='产品包装',`outline`='产品包装业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52461398063840.jpg\" title=\"baozhuang_03.jpg\"/></p><p>&nbsp; &nbsp; 产品设计是产品利润增长，企业获得成功的重要手段。我们具备全面的产品造型和包装设计能力，从市场的角度来审视产品，用营销的目光洞悉消费。我们会从行业属性、消费认知、企业支持、产品卖点、竞品区隔、终端展示进行全方位的研究工作，并经过科学的整理与分析，得出有针对性的结论，为产品的市场定位、产品卖点的提炼、产品的营销推广策略提供有力的支撑，为产品包装设计、产品造型设计、系列包装系统化设计提供最有效的信息。产品命名及包装设计产品名称是产品体系的重要构件和有机组成部分。好名称便于消费者记忆，并形成有效传播。好的包装能让产品脱颖而出，赢得更多的消费青睐。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装可以包括多达三个层次的材料。第一层次的包装是指最接近产品的容器。例如，装有“修面后除香洗净液”的瓶子是最接近产品的包装。第二层次的包装是指保护第一层次包装的材料，当产品使用时，它即被丢弃。用来包装瓶装的“修面后洗净液”的硬纸板盒就属于第二层次的包装，它为产品提供了进一步的保护和促销机会。输包装是指产品储存、辨认和运输时所必需的包装。如装有六打“修面后陈香洗净液”的波纹盒就是运输包装。</span></p><p><strong><span style=\"font-family:宋体\"> &nbsp; &nbsp;为新产品制定有效的包装，这需要作出大量的决策。</span></strong></p><p><strong style=\"font-family: 宋体;\">&nbsp; &nbsp; 第一，建立包装化概念。</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装化概念的定义是，规定包装基本上应为何物，或为一个特定产品起什么作用。包装的主要作用应为优质产品提供保护，引进一个新颖的使用方式，提示产品或公司的某种质量，或者是其他某些作用。</span><span style=\"font-family: 宋体;\">通用食品公司开发了一种新颖的狗食品，其形状象小肉馅饼。管理当局决定要最大限度使人们看到这些个馅饼所具有的独特的和可口的外表。可见性是作为包装化的基本构思加以规定的，管理当局就是据此考虑了若干包装物方案。该公司最后选定在盘子上覆盖一层透明薄膜的包装方式。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 此外，还必须为包装设计的其他要素作出决策，如包装物的大小，形状，材料，色彩，文字说明，以及品牌标记。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 决策的内容还必须包括：大量的文字说明还是少量的文字说明，采用玻璃纸或其他透明的薄膜，塑料的或薄片状的盘子，等等。包装化的各个要素必须相互协调。包装大小涉及包装材料和色彩等。包装化的要素也必须和订价、广告和其他市场营销要素相互协调。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装一经设计好后，必须进行一些试验。进行工程技术测试的目的是为了保证包装在正常情况下经得起磨损；进行消费者测试的目的是为了保证赢得有利的消费者反应。</span><span style=\"font-family: 宋体;\">并且，即使预先采取了这些试验措施，但是包装设计有时还会存在某种根本性的缺陷：比如，一个食品公司开发出一种加压的烤肉汁罐头，定名为“喷喷喷雾罐头”，在市场试验中发现包装有潜在的祸患：“我们原以为我们有了一个好罐头，但是，我们幸好最初只在德克萨斯州和加里福尼亚州的商店里进行试销。这些罐头一旦加温，它们就开始爆炸。</span> <span style=\"font-family: 宋体;\">因为我们没有在全国各地销售，所以我们的损失仅为</span>15<span style=\"font-family: 宋体;\">万美元，而不是几百万美元．”</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 为某新产品设计效果良好的包装可能要化费数十万美元，并需要数月以至于一年的时间。不能因为看到包装化在吸引和满足消费者方面能起到一些作用，而过分强调包装化的重要性。但公司应该注意到，社会对包装化已日益关注，公司应作出相应的决策，来为社会利益服务，并为眼前的顾客和公司的目标服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>此外，产品包装也有一些基本原则：</strong></span></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、适用原则。包装的主要目的是保护商品。因此，首先要根据产品的不同性质和特点，合理地选用包装材料和包装技术，确保产品不损坏、不变质、不变形等，尽量使用符合环保标准的包装材料；其次要合理设计包装，便于运输等。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、美观原则。销售包装具有美化商品的作用，因此在设计上要求外形新颖、大方、美观，具有较强的艺术性。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、经济原则。在符合营销策略的前提下，应尽量降低包装成本。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、环保原则。产品包装要符合环境保护的要求，不会对自然环境造成污染。包装可回收或者可以有多种用途，可以多次使用。或者可以有重新装满使用的功能。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp;产品包装的几种策略</span></strong></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、类似包装，即企业所有产品的包装，在图案、色彩等方面，均采用同一的形式。这种方法，可以降低包装的成本，扩大企业的影响，特别是在推出新产品时，可以利用企业的声誉，使顾客首先从包装上辨认出产品，迅速打开市场。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、组合包装，即把若干有关联的产品，包装在同一容器中。如化妆品的组合包装、节日礼品盒包装等，都属于这种包装方法。组合包装不仅能促进消费者的购买，也有利于企业推销产品，特别是推销新产品时，可将其与老产品组合出售，创造条件使消费者接受、试用。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、附赠品包装。这种包装的主要方法是在包装物中附赠一些物品，从而引起消费者的购买兴趣，有时，还能造成顾客重复购买的意愿。例如在珍珠霜盒里放一颗珍珠，顾客买了一定数量之后就能串成一根项链。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、再使用包装。这种包装物在产品使用完后，还可做别的用处。这样，购买者可以得到一种额外的满足，从而激发其购买产品的欲望。如设计精巧的果酱瓶，在果酱吃完后可以作茶杯之用。包装物在继续使用过程中，实际还起了经常性的广告作用，增加了顾客重复购买的可能。</span></p><p>&nbsp; &nbsp; 5<span style=\"font-family:宋体\">、分组包装，即对同一种产品，可以根据顾客的不同需要，采用不同级别的包装。如用作礼品，则可以精致地包装，若自己使用，则只需简单包扎。此外，对不同等级的产品，也可采用不同包装。高档产品，包装精致些，表示产品的身份；中低档产品，包装简略些，以减少产品成本。</span></p><p>&nbsp; &nbsp; 6<span style=\"font-family:宋体\">、改变包装。当由于某种原因使产品销量下降，市场声誉跌落时，企业可以在改进产品质量的同时，改变包装的形式，从而以新的产品形象出现在市场，改变产品在消费者心目中的不良地位。这种做法，有利于迅速恢复企业声誉，重新扩大市场份额。</span></p><p><span style=\"font-family:宋体\">&nbsp;<strong> &nbsp; 产品包装说明</strong></span></p><p>&nbsp; &nbsp;<span style=\"font-family: 宋体;\">产品的包装说明是包装的重要组成部分，它在宣传产品功效、争取消费者了解、指导人们正确消费方面有重大作用。</span></p><p>&nbsp; &nbsp;<strong> 1<span style=\"font-family:宋体\">、包装标签</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装标签是指附着或系挂在产品销售包装上的文字、图形、雕刻及印制的说明。标签可以是附着在产品上的简易签条，也可以是精心设计的作为包装的一部分的图案。标签可能仅标有品名，也可能载有许多信息，能用来识别、检验内装产品，同时也可以起到促销作用。</span></p><p><span style=\"font-family:宋体\">通常，产品标签主要包括：制造者或销售者的名称和地址、产品名称、商标、成分、品质特点、包装内产品数量、使用方法及用量、编号、贮藏应注意的事项、质检号、生产日期和有效期等内容。值得提及的是，印有彩色图案或实物照片的标签有明显的促销功效。</span></p><p>&nbsp; &nbsp; <strong>2<span style=\"font-family:宋体\">、包装标志</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 是在运输包装的外部印制的图形、文字和数字以及它们的组合。包装标志主要有运输标志、指示性标志、警告性标志三种。运输标志又称为唛头</span>(Mark)<span style=\"font-family:宋体\">，是指在产品外包装上印制的反映收货人和发货人、目的地或中转地、件号、批号、产地等内容的几何图形、特定字母、数字和简短的文字等。指示性标志是根据产品的特性，对一些容易破碎、残损、变质的产品，用醒目的图形和简单的文字做出的标志。指示性标志指示有关人员在装卸、搬运、储存、作业中引起注意，常见的有“此端向上”、“易碎”、“小心轻放”、“由此吊起”等。警告性标志是指在易燃品、易爆品、腐蚀性物品和放射性物品等危险品的运输包装上印制特殊的文字，以示警告。常见的有“爆炸品”、“易燃品”、“有毒品”等。</span></p>',`pic`='536a4d2a1ec01.jpg' WHERE ( `id` = 178 ) [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2014-05-07T23:11:39+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000536s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000120s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015956s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2014-05-07T23:12:09+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015425s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-05-07T23:12:14+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000491s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-05-07T23:12:21+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001224s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='合作指南',`lowertitle`='合作指南',`outline`='合作流程介绍',`pid`=25,`content`='<p><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/68221399474165.jpg\" title=\"HZZN_02.jpg\"/></p><p>【了解我们】了解我们的专业能力与合作方法，确认我们正是您需要的伙伴，彼此的欣赏和信任才会有良好的合 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作，我们不想出现您盲目的选择。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【首次沟通】双方通过电话或其他在线联系方式沟通、交流，初步达成合作意向。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p>【合作意向】明确设计范围、内容、价格及进度排期。</p><p>【确定合作】签订委托合同书，委托方支付50%预付款，明确双方负责人。</p><p>【项目调研】尽可能真实详尽地提供资料，充分收集与消化客户相关资料，调研其竟争对方的市场表现。&nbsp;</p><p>【项目设计】分析、沟通、项目讨论、展开设计。&nbsp;</p><p>【设计提案】与客户方负责及决策人进行沟通，头脑风暴找到创意点最大化放大品牌自有特色。客户并提出合理 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;的调整修改方案。</p><p>【方案调整】对初步设计方案进行筛选、修改，确定设计方案。根据沟通基础对设计方案进行细化调整，最终方 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;案客户确定满意。</p><p>【交付方案】支付项目余款，提交最终设计源文件，邮寄设计知识产权转让协议书至客户。</p><p>【后续服务】继续与客户保持联系，及时解决客户的技术问题和相关咨询。</p>',`pic`='536a4d5504376.jpg' WHERE ( `id` = 180 ) [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-05-07T23:12:22+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/180
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000541s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 180 ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014267s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2014-05-07T23:12:46+08:00 ] 123.245.253.66 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000693s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-05-07T23:12:53+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001596s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2014-05-07T23:12:59+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 182 ) LIMIT 1   [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016069s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-05-07T23:13:16+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001203s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='音视频制作',`lowertitle`='音视频制作',`outline`='音视频制作业务介绍',`pid`=25,`content`='<p>视听识别主要包括企业宣传片、产品广告片、形象片。通过对企业的深入了解和对拍摄脚本的精益求精，力求呈现给受众一部具既有欣赏价值又具有清晰记忆点的企业宣传片。通过运用各种音视特效，三维合成实现文字、视觉、声效的完美结合，最大程度的为目标受众带来视听享受并形成深刻记忆。通过我们的创意，将品牌和产品优势和特点准确的转换成目标受众乐于接受、易于记忆、并能产生积极联想的视听因素，以达到提高并加深市场认知，促进品牌美誉度和忠诚度的有效传播。</p>' WHERE ( `id` = 182 ) [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2014-05-07T23:13:17+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000109s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 182 ) LIMIT 1   [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-05-07T23:13:20+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000946s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.002073s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003312s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-05-07T23:13:25+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/183
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 183 ) LIMIT 1   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000721s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2014-05-07T23:13:36+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/183
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001220s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='WEB+APP  UI',`lowertitle`='WEB+APP  UI',`outline`='WEB+APP  UI业务介绍',`pid`=25,`content`='<p>如何在海量的互联网信息中，让用户一眼辨识；如何在无数的产品与服务中，让用户被您的网站吸引？互动设计集创意、策划、设计、开发于一体。交互是一种体验，是企业与消费者在这个时代最重要的交流通路。我们将用户与企业的关键接触点绘制成体验地图，不断的完善以达到真正满足用户需求的愉悦，改善企业与顾客之间的关系并提高客户忠诚度。</p>' WHERE ( `id` = 183 ) [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2014-05-07T23:13:37+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/183
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 183 ) LIMIT 1   [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2014-05-07T23:13:40+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000785s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001676s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2014-05-07T23:13:44+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/184
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000666s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 184 ) LIMIT 1   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2014-05-07T23:13:54+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/184
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000951s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='媒体广告植入与发布',`lowertitle`='媒体广告植入与发布',`outline`='媒体广告植入与发布业务介绍',`pid`=25,`content`='<p>龙马视艺以企业品牌核心价值为原则，在品牌识别的整体框架下，为客户量身定制高效、精准、整合的营销传播策略及执行。我们团队的专业人员为客户提供传播终端的数据研究、传播策略制定、平面和视听全方位创意解决方案、媒介执行、公关活动策划及执行、网络营销、传播效果跟踪和优化。</p>' WHERE ( `id` = 184 ) [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000365s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-05-07T23:13:55+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/184
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 184 ) LIMIT 1   [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000639s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2014-05-07T23:39:03+08:00 ] 123.245.253.66 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001327s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015425s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2014-05-07T23:39:08+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.003370s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.001236s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 182 ) LIMIT 1   [ RunTime:0.001328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019174s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001084s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2014-05-07T23:41:02+08:00 ] 123.245.253.66 /admin.php/Web/savecase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000822s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 182 ) [ RunTime:0.001011s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a540e5863e.jpg','','',182) [ RunTime:0.000624s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('536a540e58ea4.jpg','','',182) [ RunTime:0.000247s ]
+SQL: UPDATE `lm_company` SET `title`='音视频制作',`lowertitle`='音视频制作',`outline`='音视频制作业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><embed type=\"application/x-shockwave-flash\" class=\"edui-faked-video\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" src=\"http://player.youku.com/player.php/sid/XNDAyMTMzNjEy/v.swf\" width=\"640\" height=\"400\" wmode=\"transparent\" play=\"true\" loop=\"false\" menu=\"false\" allowscriptaccess=\"never\" allowfullscreen=\"true\"/></p><p>&nbsp; &nbsp; 视听识别主要包括企业宣传片、产品广告片、形象片。通过对企业的深入了解和对拍摄脚本的精益求精，力求呈现给受众一部具既有欣赏价值又具有清晰记忆点的企业宣传片。通过运用各种音视特效，三维合成实现文字、视觉、声效的完美结合，最大程度的为目标受众带来视听享受并形成深刻记忆。通过我们的创意，将品牌和产品优势和特点准确的转换成目标受众乐于接受、易于记忆、并能产生积极联想的视听因素，以达到提高并加深市场认知，促进品牌美誉度和忠诚度的有效传播。</p>',`pic`='536a540e596f7.jpg' WHERE ( `id` = 182 ) [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-05-07T23:41:04+08:00 ] 123.245.253.66 /admin.php/Web/updacase/id/182
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000891s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 182 ) LIMIT 1   [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000470s ]
+

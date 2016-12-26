@@ -1,0 +1,678 @@
+[ 2014-04-21T13:49:46+08:00 ] 123.245.227.238 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-04-21T13:49:48+08:00 ] 123.245.227.238 /admin.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000588s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002158s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-04-21T13:49:49+08:00 ] 123.245.227.238 /admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `lm_user` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `lm_user` WHERE ( `username` = 'longmamedia' ) AND ( `userpwd` = '9b16c0d7ffcb7ff1a046be2f3f846ac8' ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /www/web/longmamedia_com/public_html/Admin/Lib/Action/LoginAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002114s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-04-21T13:49:50+08:00 ] 123.245.227.238 /admin.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 131 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 139 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 147 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 171 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 172 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 174 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 175 行.
+NOTIC: [8] Undefined variable: stat /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 176 行.
+NOTIC: [8] Undefined variable: log /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 197 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 213 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 217 行.
+NOTIC: [8] Undefined variable: sysinfo /www/web/longmamedia_com/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 221 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-04-21T13:49:55+08:00 ] 123.245.227.238 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001516s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001115s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001638s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003893s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2014-04-21T13:50:05+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000632s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020322s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002593s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2014-04-21T14:13:26+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000766s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 177 ) [ RunTime:0.000415s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354b70623bd5.jpg','','',177) [ RunTime:0.000744s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354b706247b5.jpg','','',177) [ RunTime:0.000385s ]
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p>&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family:宋体\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family:宋体\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family:宋体\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family:宋体\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family:宋体\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family:宋体\">　竞争而并不将其长久地与品牌联系在一起。</span></p><p><span style=\"font-family:宋体\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family:宋体\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family:宋体\">代表麦当劳，</span>Coke<span style=\"font-family:宋体\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family:宋体\">和三个字母的</span>Lux<span style=\"font-family:宋体\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family:宋体\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family:宋体\">，及其品牌标识颜色</span>--<span style=\"font-family:宋体\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family:宋体\">获得桂冠。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family:宋体\">人或动物形象</span>--<span style=\"font-family:宋体\">便利这些品牌更具竞争力，下面是一引些例子：</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family:宋体\">的队长形象。</span> <span style=\"font-family:宋体\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family:宋体\">。</span> <span style=\"font-family:宋体\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family:宋体\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family:宋体\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family:宋体\">的讲话方式是</span>\"<span style=\"font-family:宋体\">呃，呃</span>......\" <span style=\"font-family:宋体\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family:宋体\">为号召物的所有广告的版权。</span> <span style=\"font-family:宋体\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></p><p><span style=\"font-family:宋体\"></span>&nbsp; &nbsp;&nbsp;<span style=\"color: rgb(51, 51, 51); font-family: 宋体; background-color: white; line-height: 24px; text-indent: 32px;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p style=\"text-indent: 32px;line-height: 24px;background-color: white\"><strong><span style=\";font-family:宋体;color:#333333\"></span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family:宋体\">产品（</span>Product<span style=\"font-family:宋体\">）</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; </span><strong><span style=\"font-family:宋体\">品牌</span> (Brand)</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; </span><strong><span style=\"font-family:宋体\">成功的品牌</span> (Successful brand)</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family:宋体\">×</span>D<span style=\"font-family:宋体\">×</span>AV</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family:宋体\">成功的品牌</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family:宋体\">有效的产品</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family:宋体\">与众不同的品牌识别系统</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family:宋体\">附加价值</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family:宋体\"> &nbsp;&nbsp;</span><strong><span style=\"font-family:宋体\">品牌金字塔</span><span style=\"font-family: 宋体;\">&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></p><p><span style=\"font-family:宋体\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐</span>(Kapfferer)<span style=\"font-family:宋体\">在他的《战略品牌管理</span><span style=\"font-family: 宋体;\">》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; </span><strong><span style=\"font-family:宋体\">品牌菱形图（</span>Brand prism<span style=\"font-family:宋体\">）</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我</span><span style=\"font-family: 宋体;\">们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></p><p><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family:宋体\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; </span><strong><span style=\"font-family:宋体\">品牌环状图（</span>Brand circle<span style=\"font-family:宋体\">）</span></strong></p><p><span style=\"font-family:宋体\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（</span>Davidson<span style=\"font-family:宋体\">）在他的《攻势营销》一书中提出了</span><span style=\"font-family: 宋体;\">品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family:宋体\">）饮料的例子，来进一步说明品牌</span><span style=\"font-family: 宋体;\">环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;<img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌</span><span style=\"font-family: 宋体;\">的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></p>',`pic`='5354b706250c1.jpg' WHERE ( `id` = 177 ) [ RunTime:0.001947s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2014-04-21T14:13:27+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000770s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000387s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018124s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000745s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2014-04-21T14:15:12+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"></span>&nbsp; &nbsp;&nbsp;<span style=\"font-family: 宋体; color: rgb(51, 51, 51); background-color: white; line-height: 24px; text-indent: 32px;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></span></p><p style=\"text-indent: 32px;line-height: 24px;background-color: white\"><span style=\"font-family: 宋体, SimSun;\"><strong><span style=\"font-family: 宋体; color: rgb(51, 51, 51);\"></span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>' WHERE ( `id` = 177 ) [ RunTime:0.001962s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001880s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-04-21T14:15:14+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000816s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2014-04-21T14:15:39+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000841s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"></span>&nbsp; &nbsp;&nbsp;<span style=\"font-family: 宋体; color: rgb(51, 51, 51); background-color: white; line-height: 24px; text-indent: 32px;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></span></p><p style=\"text-indent: 32px;line-height: 24px;background-color: white\"><span style=\"font-family: 宋体, SimSun;\"><strong><span style=\"font-family: 宋体; color: rgb(51, 51, 51);\"></span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>' WHERE ( `id` = 177 ) [ RunTime:0.001646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002033s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2014-04-21T14:15:40+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000646s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.001820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002310s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-04-21T14:16:12+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000981s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p style=\"text-indent: 32px;line-height: 24px;background-color: white\"><span style=\"font-family: 宋体, SimSun;\"><strong><span style=\"font-family: 宋体; color: rgb(51, 51, 51);\"></span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>' WHERE ( `id` = 177 ) [ RunTime:0.001784s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000784s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2014-04-21T14:16:13+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000775s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2014-04-21T14:16:47+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001032s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+NOTIC: [8] Undefined variable: pic /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><font face=\"宋体\">&nbsp; &nbsp;&nbsp;</font><span style=\"font-family: 宋体, SimSun;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>' WHERE ( `id` = 177 ) [ RunTime:0.001924s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2014-04-21T14:16:48+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000748s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000190s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2014-04-21T14:26:50+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001516s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: UPDATE `lm_company` SET `title`='标志LOGO+VI',`lowertitle`='标志LOGO+VI',`outline`='标志LOGO+VI业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/66031398060178.jpg\" title=\"LOGOVI_03.jpg\"/><br/></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌识别是企业希望创造和保持的，能打动消费者并区别于竞争者的品牌联想，与品牌核心价值共同构成丰满的品牌联想。这些联想暗示着企业对消费者的某种承诺。一个强势品牌必然有丰满、鲜明的品牌识别。科学完整地规划品牌识别体系后品牌核心价值就能有效落地，并与日常的营销传播活动有效对接，企业的营销传播活动才有了标准与方向。产品解决方案覆盖政府、金融、 IT、医药、房地产、日化、工业、快消品等。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 对每一品牌，设计者都会列出许多消费者符号，再从每品牌识别系统品牌识别系统一组中选出恰当的将意思相近的列在一起，再从每一组中选出一个最能代表这组意思的，然后开始分类。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 顾客看到你的视觉标识会想到的是什么？例如你设计的包装的颜色正是人们经常选择使用的，或者像美国运通公司</span>Centurion<span style=\"font-family: 宋体;\">一样，你选择的形象设计最能体现个人风格。</span> <span style=\"font-family: 宋体;\">要做到深入人心，哪些设计需投入大量资金？例如，广告口号通常是一项昂贵支出，它需要不断的重复才能深入消费者心目中，在全部的广告时间中，可能只有其中</span>5%<span style=\"font-family: 宋体;\">或稍多一点的时间能够引起消费者的注意。它通常会迫使公司放弃建立其他的消费者符号。</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战略范围？比如是要确立品牌的精华或是要保持品牌视觉形象的连贯性？</span> <span style=\"font-family: 宋体;\">哪些消费者符号属战术范围，亦或说是过渡性的？比如，只是针对某一地方市场上的临时性</span> <span style=\"font-family: 宋体;\">　竞争而并不将其长久地与品牌联系在一起。</span></span><span style=\"font-family: 宋体, SimSun;\">品牌设计人员确立每一种消费者符号的作用之前，应认真考虑以下细节：</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在品牌实践过程中，我们如何使用各项设计？某项设计对于消费者认知、购买以及喜爱这个品牌会起什么作用？</span> <span style=\"font-family: 宋体;\">以下就是这些问题的初步回答。</span>&nbsp; &nbsp;</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 现代通讯媒介所能提供给人们的只是对某个品牌的惊鸿一瞥。无论是竖立在足球场四周的赞助商广告牌，还是印在球员球衣上的产品标识抑或是出现在专访背景上的广告，这些通过现代通讯广为传播的品牌，也只是被消费者匆匆地扫上几眼。而一些简练的识别设计，如大写</span>M<span style=\"font-family: 宋体;\">代表麦当劳，</span>Coke<span style=\"font-family: 宋体;\">代表可口可乐则能在世界观众面前产生最佳效果。另外一些为人们熟知的品牌名称，如只有四个字母的</span>Mars, Sony<span style=\"font-family: 宋体;\">和三个字母的</span>Lux<span style=\"font-family: 宋体;\">也可收到同样的效果。简短的品牌名称特有的可视性产生的一个后果是，你将很难再找到一个未被注册的、在各国语言中易于诵读的，不易引起误解的品牌名称。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在下例中，我们可以看到一项经过恰当设计的国际品牌如何从一般品牌中脱颖而出。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 与地方品牌不同的是，世界级的设计要出现在世界级场合中，如奥运赛场四周的广告栅栏等等，以收到强烈的效果。将你的广告牌设置在一流品牌的附近，无形之中便分享了人们对这品牌的好感，而地方品牌是绝对做不到这一点的。在人们的潜意识中，在世界重大场合中出现过的品牌就会与那些没有或极少出现的品牌迥然不同。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 在</span>1990<span style=\"font-family: 宋体;\">年意大利世界足球赛各路巨星燕尾服开激战时，对球场四周广告牌的争夺也极为激烈。一些品牌的设计显然是准备不足，没有考虑到作为比赛背景出现的，不是名称太长就是品牌标识绘得太复杂，使得观众没有时间也没有机会看清读懂。与此相反，一个只有四个字母的品牌名称抓住了摄影机的各个角度，全方位地出现在屏幕上，这就是</span>Mars<span style=\"font-family: 宋体;\">，及其品牌标识颜色</span>--<span style=\"font-family: 宋体;\">在黑色背景下镶着金边和耀眼的红色。这就是这家食品公司值得向全世界夸耀的富于自家风格的设计。在这场广告激战中，</span>Mars<span style=\"font-family: 宋体;\">获得桂冠。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 在当今通讯极为发达的社会中中，并非只是那些在世界性场合中出现的广告才会存在。想想那些乘车上下班的人们和超级市场中手推推车的购物者，又会有多少广告从他们身边掠过。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;&nbsp;万宝路若没有其牛仔形象，恐怕难以成为国际品牌，罗杰斯特若没有短吻鳄形象，或许也会失去其领导世界潮流风尚的意义。一个品牌要在社会上具有竞争力，被消费者优先考虑，就需要设计出一个人喜爱且人人接受的品牌形象。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 一些富有个性的设计</span>--<span style=\"font-family: 宋体;\">人或动物形象</span>--<span style=\"font-family: 宋体;\">便利这些品牌更具竞争力，下面是一引些例子：</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 使品牌产生一种新的神奇力量，例如</span>Amex<span style=\"font-family: 宋体;\">的队长形象。</span> <span style=\"font-family: 宋体;\">使品牌在某些特殊场合能够被记起。例如在苏格兰威士忌季节市场上出现的</span>Johnnie Walker<span style=\"font-family: 宋体;\">。</span> <span style=\"font-family: 宋体;\">形象设计对于儿童应具吸引力，从而吸引整个家庭。例如麦当劳的罗纳德和迪斯尼的动物形象。</span> <span style=\"font-family: 宋体;\">赋予形象特殊的声音。比如</span>Tony the Tiger<span style=\"font-family: 宋体;\">确定的</span>Kellogg&#39;s Frosties<span style=\"font-family: 宋体;\">的讲话方式是</span>\"<span style=\"font-family: 宋体;\">呃，呃</span>......\" <span style=\"font-family: 宋体;\">无声的固定品牌精华。例如，以</span>Esso&#39;s Tiger<span style=\"font-family: 宋体;\">为号召物的所有广告的版权。</span> <span style=\"font-family: 宋体;\">将幻想与时尚相结合。例如罗杰斯特的短吻鳄。</span></span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-family: 宋体, SimSun;\">了解如何建立有效的品牌识别系统，首先要弄清什么是产品，什么是品牌，什么是成功的品牌。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">产品（</span>Product<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 产品是指可以满足消费者在功能方面需求的任何事务，它可以是一种有形的产品，也可以是某种形式的服务。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌</span> (Brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌可以被定义为一些的名称、符号和设计，通常这些元素组合在一起，用以区别特定的生产厂商的产品。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">成功的品牌</span> (Successful brand)</strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 成功的品牌应被定义为不仅仅在功能上满足消费者的需求，而且能够同时提供满足消费者某些心理需求的附加价值的品牌。成功的品牌可以用下面的公式表述：</span> 　S=P<span style=\"font-family: 宋体;\">×</span>D<span style=\"font-family: 宋体;\">×</span>AV</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 其中</span>,　S= <span style=\"font-family: 宋体;\">成功的品牌</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;P= <span style=\"font-family: 宋体;\">有效的产品</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;D= <span style=\"font-family: 宋体;\">与众不同的品牌识别系统</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AV= <span style=\"font-family: 宋体;\">附加价值</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体; font-size: 16px;\">由此我们可以得出这样的结论，一个企业要想建立成功的品牌，首先是生产过硬的产品，其次是建立有效品牌的识别系统，最终为消费者带来除产品使用功能之外的附加价值。</span></span></p><p><span style=\"font-size: 16px; font-family: 宋体, SimSun;\">目前，欧美学术界有三种比较流行的方法用以分析和规划品牌识别系统。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\"> &nbsp;&nbsp;</span><strong><span style=\"font-family: 宋体;\">品牌金字塔&nbsp;</span></strong><span style=\"font-family: 宋体;\"> &nbsp;</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060399579260.gif\" style=\"float: right;\"/> &nbsp; &nbsp;凯普福乐(Kapfferer)<span style=\"font-family: 宋体;\">在他的《战略品牌管理》一书中提出了品牌金字塔。并经由其他学者加以完善。品牌金字塔将品牌构成分为四个层面，分别是品牌根基（</span>Brand root<span style=\"font-family: 宋体;\">）、品牌定位</span> (Brand position)<span style=\"font-family: 宋体;\">、品牌主旨</span>(Brand Theme)<span style=\"font-family: 宋体;\">和品牌执行</span>(Brand execution)<span style=\"font-family: 宋体;\">。品牌根基是品牌核心，是随着品牌延续而不断完善的过程。品牌定位是一个品牌区别于其他品牌、并将自身根植于消费者心智中的过程。品牌定位是构成品牌根基的重要元素，同时它也是品牌根基的延伸。品牌主旨是品牌定位的视觉及文字的表达。品牌执行是传播品牌的各种手段，如影视广告、公共关系、促销、</span>POP<span style=\"font-family: 宋体;\">等等。通过品牌金字塔，我们可以从策略和执行层面分析和规划品牌。如图</span>1 <span style=\"font-family: 宋体;\">所示，由奔驰汽车的品牌金字塔，我们不难看出奔驰品牌从根基到执行的一致性及其品牌各要素之间的关系。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌菱形图（</span>Brand prism<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1//20140421/1398060510644821.gif\" style=\"float: right;\"/>品牌菱形图同样是由凯普福乐提出的，利用品牌菱形图，我们可以对品牌及其消费者进行分析，从而为品牌的规划提供依据。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 下面是</span>IBM<span style=\"font-family: 宋体;\">及苹果电脑的品牌菱形图的对比。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; 从以上对比中，我们能够很清晰地分析出这两个品牌的个性差异，以及他们的目标顾客和目标市场的差异。</span>IBM<span style=\"font-family: 宋体;\">品牌要传达的核心信息是：为专业人士服务的专业系统。而苹果则要传达的是：为富有创意的人们设计的电脑。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 利用品牌金字塔和菱形图我们可以对自己的品牌进行深入的分析，发现品牌自身的长处以及发展的机遇。也可以同其他的竞争对手进行比较，从而为新品牌的定位和已有品牌的重新定位提供依据。同时，品牌金字塔和菱形图可以帮助我们品牌传播的过程中保持信息的连续性。另外，品牌金字塔和菱形图为品牌延伸策略的制定提供依据。</span></p><p><span style=\"font-family: 宋体, SimSun;\"><span style=\"font-family: 宋体;\">&nbsp; &nbsp; </span><strong><span style=\"font-family: 宋体;\">品牌环状图（</span>Brand circle<span style=\"font-family: 宋体;\">）</span></strong></span></p><p><span style=\"font-family: 宋体, SimSun;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060605528315.gif\" title=\"200810419554114077805.gif\" style=\"float: right;\"/>&nbsp; &nbsp; 戴维森（Davidson<span style=\"font-family: 宋体;\">）在他的《攻势营销》一书中提出了品牌环状图。这个环状图是由四个区域组成，他们由内向外依次是品牌的内部核心，品牌的外部核心，品牌可以延伸的领域和品牌不可涉足的领域。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; 品牌的内部核心包含了品牌中固有的决定性元素，是品牌根本策略的表达。品牌外部核心则包含了一些品牌中可选择的元素，这些元素是品牌基本元素的补充，它们不是品牌最本质的核心内容。品牌的内部核心和外部核心体现了当前的品牌状况。品牌可延伸的领域包含了品牌今后可能发展并延伸的方向，也就是说品牌在这些方向上发展和延伸是安全的。品牌不可延伸的方向则提示了一些方向，一旦品牌涉及这些方向，不但将使得形象变得模糊，而且可能给品牌带来严重的损害。</span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp; <span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060699188047.gif\" title=\"200810419554118777806.gif\" style=\"float: right; width: 484px; height: 242px;\"/>下面我们通过雷博娜（</span>Ribena<span style=\"font-family: 宋体;\">）饮料的例子，来进一步说明品牌环状图在规划品牌发展和延伸方面的作用。在</span>20<span style=\"font-family: 宋体;\">世纪</span>80<span style=\"font-family: 宋体;\">年代，雷博娜是一种玻璃瓶装的浓缩黑加仑饮料。如图</span>5<span style=\"font-family: 宋体;\">中所示的，雷博娜品牌的内部核心和外部核心是该品牌在当时的状况。在</span>1980<span style=\"font-family: 宋体;\">年到</span>1995<span style=\"font-family: 宋体;\">年的时间里，雷博娜运用与其内部核心保持高度一致的品牌策略规划和管理品牌，使其从仅仅是拥有一种玻璃瓶装的黑加仑饮料，成为一个拥有各种包装形式，各种口味，各种用途，各种产品类型的，有着相对宽泛产品线的品牌。其销售也在</span>15<span style=\"font-family: 宋体;\">年的时间中增长了</span>10<span style=\"font-family: 宋体;\">倍。</span></span></p><p><span style=\"font-family: 宋体, SimSun;\">&nbsp; &nbsp;<span style=\"font-family: 宋体;\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload1/20140421/1398060758127382.gif\" title=\"200810419554125077807.gif\" style=\"float: right; width: 488px; height: 330px;\"/> 以上的三种方法可应用于新品牌建立，有助于我们把握品牌的定位，并在品牌建立的初期就对品牌的未来发展进行规划。对于已有的品牌，运用这三种方法，可以对品牌的现有定位进行分析，同竞争对手进行比较，及时发现问题，并对品牌的发展和延伸进行有目的的规划，从而使品牌得到良性的发展。针对问题品牌，以上的三种方法同样可以应用于品牌的再定位。目前，国内的一些企业在品牌的建设上急于求成，过分强调炒作，而并不重视品牌的内涵建设。这样的品牌即使一时声名鹊起，却难有长久稳定的发展。这也是许多中国品牌只能各领风骚三五年的真正原因所在。总之，品牌建设是漫长的过程，在这个过程中，需要我们不断运用科学的手段对其进行规划和维护，这样我们的品牌才可能长久而不衰。</span></span></p>',`pic`='5354ba2acb7c0.jpg' WHERE ( `id` = 177 ) [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-04-21T14:26:54+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000643s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000636s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 177 ) LIMIT 1   [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000746s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2014-04-21T14:26:58+08:00 ] 123.245.227.238 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000961s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.002044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-04-21T14:27:04+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000593s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016425s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2014-04-21T15:06:41+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.000951s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 178 ) [ RunTime:0.002789s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354c381910d1.jpg','','',178) [ RunTime:0.001240s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354c38191ad4.jpg','','',178) [ RunTime:0.001752s ]
+SQL: UPDATE `lm_company` SET `title`='产品包装',`lowertitle`='产品包装',`outline`='产品包装业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52461398063840.jpg\" title=\"baozhuang_03.jpg\"/></p><p>&nbsp; &nbsp; 产品设计是产品利润增长，企业获得成功的重要手段。我们具备全面的产品造型和包装设计能力，从市场的角度来审视产品，用营销的目光洞悉消费。我们会从行业属性、消费认知、企业支持、产品卖点、竞品区隔、终端展示进行全方位的研究工作，并经过科学的整理与分析，得出有针对性的结论，为产品的市场定位、产品卖点的提炼、产品的营销推广策略提供有力的支撑，为产品包装设计、产品造型设计、系列包装系统化设计提供最有效的信息。产品命名及包装设计产品名称是产品体系的重要构件和有机组成部分。好名称便于消费者记忆，并形成有效传播。好的包装能让产品脱颖而出，赢得更多的消费青睐。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装可以包括多达三个层次的材料。第一层次的包装是指最接近产品的容器。例如，装有“修面后除香洗净液”的瓶子是最接近产品的包装。第二层次的包装是指保护第一层次包装的材料，当产品使用时，它即被丢弃。用来包装瓶装的“修面后洗净液”的硬纸板盒就属于第二层次的包装，它为产品提供了进一步的保护和促销机会。输包装是指产品储存、辨认和运输时所必需的包装。如装有六打“修面后陈香洗净液”的波纹盒就是运输包装。</span></p><p><span style=\"font-family:宋体\"></span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 为新产品制定有效的包装，这需要作出大量的决策。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>第一，建立包装化概念。</strong></span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装化概念的定义是，规定包装基本上应为何物，或为一个特定产品起什么作用。包装的主要作用应为优质产品提供保护，引进一个新颖的使用方式，提示产品或公司的某种质量，或者是其他某些作用。</span><span style=\"font-family: 宋体;\">通用食品公司开发了一种新颖的狗食品，其形状象小肉馅饼。管理当局决定要最大限度使人们看到这些个馅饼所具有的独特的和可口的外表。可见性是作为包装化的基本构思加以规定的，管理当局就是据此考虑了若干包装物方案。该公司最后选定在盘子上覆盖一层透明薄膜的包装方式。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 此外，还必须为包装设计的其他要素作出决策，如包装物的大小，形状，材料，色彩，文字说明，以及品牌标记。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 决策的内容还必须包括：大量的文字说明还是少量的文字说明，采用玻璃纸或其他透明的薄膜，塑料的或薄片状的盘子，等等。包装化的各个要素必须相互协调。包装大小涉及包装材料和色彩等。包装化的要素也必须和订价、广告和其他市场营销要素相互协调。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装一经设计好后，必须进行一些试验。进行工程技术测试的目的是为了保证包装在正常情况下经得起磨损；进行消费者测试的目的是为了保证赢得有利的消费者反应。</span><span style=\"font-family: 宋体;\">并且，即使预先采取了这些试验措施，但是包装设计有时还会存在某种根本性的缺陷：比如，一个食品公司开发出一种加压的烤肉汁罐头，定名为“喷喷喷雾罐头”，在市场试验中发现包装有潜在的祸患：“我们原以为我们有了一个好罐头，但是，我们幸好最初只在德克萨斯州和加里福尼亚州的商店里进行试销。这些罐头一旦加温，它们就开始爆炸。</span> <span style=\"font-family: 宋体;\">因为我们没有在全国各地销售，所以我们的损失仅为</span>15<span style=\"font-family: 宋体;\">万美元，而不是几百万美元．”</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 为某新产品设计效果良好的包装可能要化费数十万美元，并需要数月以至于一年的时间。不能因为看到包装化在吸引和满足消费者方面能起到一些作用，而过分强调包装化的重要性。但公司应该注意到，社会对包装化已日益关注，公司应作出相应的决策，来为社会利益服务，并为眼前的顾客和公司的目标服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>此外，产品包装也有一些基本原则：</strong></span></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、适用原则。包装的主要目的是保护商品。因此，首先要根据产品的不同性质和特点，合理地选用包装材料和包装技术，确保产品不损坏、不变质、不变形等，尽量使用符合环保标准的包装材料；其次要合理设计包装，便于运输等。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、美观原则。销售包装具有美化商品的作用，因此在设计上要求外形新颖、大方、美观，具有较强的艺术性。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、经济原则。在符合营销策略的前提下，应尽量降低包装成本。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、环保原则。产品包装要符合环境保护的要求，不会对自然环境造成污染。包装可回收或者可以有多种用途，可以多次使用。或者可以有重新装满使用的功能。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp;产品包装的几种策略</span></strong></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、类似包装，即企业所有产品的包装，在图案、色彩等方面，均采用同一的形式。这种方法，可以降低包装的成本，扩大企业的影响，特别是在推出新产品时，可以利用企业的声誉，使顾客首先从包装上辨认出产品，迅速打开市场。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、组合包装，即把若干有关联的产品，包装在同一容器中。如化妆品的组合包装、节日礼品盒包装等，都属于这种包装方法。组合包装不仅能促进消费者的购买，也有利于企业推销产品，特别是推销新产品时，可将其与老产品组合出售，创造条件使消费者接受、试用。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、附赠品包装。这种包装的主要方法是在包装物中附赠一些物品，从而引起消费者的购买兴趣，有时，还能造成顾客重复购买的意愿。例如在珍珠霜盒里放一颗珍珠，顾客买了一定数量之后就能串成一根项链。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、再使用包装。这种包装物在产品使用完后，还可做别的用处。这样，购买者可以得到一种额外的满足，从而激发其购买产品的欲望。如设计精巧的果酱瓶，在果酱吃完后可以作茶杯之用。包装物在继续使用过程中，实际还起了经常性的广告作用，增加了顾客重复购买的可能。</span></p><p>&nbsp; &nbsp; 5<span style=\"font-family:宋体\">、分组包装，即对同一种产品，可以根据顾客的不同需要，采用不同级别的包装。如用作礼品，则可以精致地包装，若自己使用，则只需简单包扎。此外，对不同等级的产品，也可采用不同包装。高档产品，包装精致些，表示产品的身份；中低档产品，包装简略些，以减少产品成本。</span></p><p>&nbsp; &nbsp; 6<span style=\"font-family:宋体\">、改变包装。当由于某种原因使产品销量下降，市场声誉跌落时，企业可以在改进产品质量的同时，改变包装的形式，从而以新的产品形象出现在市场，改变产品在消费者心目中的不良地位。这种做法，有利于迅速恢复企业声誉，重新扩大市场份额。</span></p><p><span style=\"font-family:宋体\">&nbsp;<strong> &nbsp; 产品包装说明</strong></span></p><p>&nbsp; &nbsp;<span style=\"font-family: 宋体;\">产品的包装说明是包装的重要组成部分，它在宣传产品功效、争取消费者了解、指导人们正确消费方面有重大作用。</span></p><p>&nbsp; &nbsp;<strong> 1<span style=\"font-family:宋体\">、包装标签</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装标签是指附着或系挂在产品销售包装上的文字、图形、雕刻及印制的说明。标签可以是附着在产品上的简易签条，也可以是精心设计的作为包装的一部分的图案。标签可能仅标有品名，也可能载有许多信息，能用来识别、检验内装产品，同时也可以起到促销作用。</span></p><p><span style=\"font-family:宋体\">通常，产品标签主要包括：制造者或销售者的名称和地址、产品名称、商标、成分、品质特点、包装内产品数量、使用方法及用量、编号、贮藏应注意的事项、质检号、生产日期和有效期等内容。值得提及的是，印有彩色图案或实物照片的标签有明显的促销功效。</span></p><p>&nbsp; &nbsp; <strong>2<span style=\"font-family:宋体\">、包装标志</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 是在运输包装的外部印制的图形、文字和数字以及它们的组合。包装标志主要有运输标志、指示性标志、警告性标志三种。运输标志又称为唛头</span>(Mark)<span style=\"font-family:宋体\">，是指在产品外包装上印制的反映收货人和发货人、目的地或中转地、件号、批号、产地等内容的几何图形、特定字母、数字和简短的文字等。指示性标志是根据产品的特性，对一些容易破碎、残损、变质的产品，用醒目的图形和简单的文字做出的标志。指示性标志指示有关人员在装卸、搬运、储存、作业中引起注意，常见的有“此端向上”、“易碎”、“小心轻放”、“由此吊起”等。警告性标志是指在易燃品、易爆品、腐蚀性物品和放射性物品等危险品的运输包装上印制特殊的文字，以示警告。常见的有“爆炸品”、“易燃品”、“有毒品”等。</span></p>',`pic`='5354c381922f3.jpg' WHERE ( `id` = 178 ) [ RunTime:0.002024s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007552s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2014-04-21T15:06:42+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.001598s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000239s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002345s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2014-04-21T15:07:44+08:00 ] 123.245.227.238 /admin.php/Web/savecase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001420s ]
+NOTIC: [8] Undefined variable: i /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `lm_slide` [ RunTime:0.001577s ]
+SQL: DELETE FROM `lm_slide` WHERE ( `pid` = 178 ) [ RunTime:0.001020s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354c3c079f69.jpg','','',178) [ RunTime:0.000896s ]
+SQL: INSERT INTO `lm_slide` (`image`,`title`,`url`,`pid`) VALUES ('5354c3c07aab3.jpg','','',178) [ RunTime:0.000262s ]
+SQL: UPDATE `lm_company` SET `title`='产品包装',`lowertitle`='产品包装',`outline`='产品包装业务介绍',`pid`=25,`content`='<p style=\"text-align:center\"><img src=\"http://www.longmamedia.com/Public/ueditor/php/upload/52461398063840.jpg\" title=\"baozhuang_03.jpg\"/></p><p>&nbsp; &nbsp; 产品设计是产品利润增长，企业获得成功的重要手段。我们具备全面的产品造型和包装设计能力，从市场的角度来审视产品，用营销的目光洞悉消费。我们会从行业属性、消费认知、企业支持、产品卖点、竞品区隔、终端展示进行全方位的研究工作，并经过科学的整理与分析，得出有针对性的结论，为产品的市场定位、产品卖点的提炼、产品的营销推广策略提供有力的支撑，为产品包装设计、产品造型设计、系列包装系统化设计提供最有效的信息。产品命名及包装设计产品名称是产品体系的重要构件和有机组成部分。好名称便于消费者记忆，并形成有效传播。好的包装能让产品脱颖而出，赢得更多的消费青睐。</p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装可以包括多达三个层次的材料。第一层次的包装是指最接近产品的容器。例如，装有“修面后除香洗净液”的瓶子是最接近产品的包装。第二层次的包装是指保护第一层次包装的材料，当产品使用时，它即被丢弃。用来包装瓶装的“修面后洗净液”的硬纸板盒就属于第二层次的包装，它为产品提供了进一步的保护和促销机会。输包装是指产品储存、辨认和运输时所必需的包装。如装有六打“修面后陈香洗净液”的波纹盒就是运输包装。</span></p><p><strong><span style=\"font-family:宋体\"> &nbsp; &nbsp;为新产品制定有效的包装，这需要作出大量的决策。</span></strong></p><p><strong style=\"font-family: 宋体;\">&nbsp; &nbsp; 第一，建立包装化概念。</strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装化概念的定义是，规定包装基本上应为何物，或为一个特定产品起什么作用。包装的主要作用应为优质产品提供保护，引进一个新颖的使用方式，提示产品或公司的某种质量，或者是其他某些作用。</span><span style=\"font-family: 宋体;\">通用食品公司开发了一种新颖的狗食品，其形状象小肉馅饼。管理当局决定要最大限度使人们看到这些个馅饼所具有的独特的和可口的外表。可见性是作为包装化的基本构思加以规定的，管理当局就是据此考虑了若干包装物方案。该公司最后选定在盘子上覆盖一层透明薄膜的包装方式。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp; 此外，还必须为包装设计的其他要素作出决策，如包装物的大小，形状，材料，色彩，文字说明，以及品牌标记。</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 决策的内容还必须包括：大量的文字说明还是少量的文字说明，采用玻璃纸或其他透明的薄膜，塑料的或薄片状的盘子，等等。包装化的各个要素必须相互协调。包装大小涉及包装材料和色彩等。包装化的要素也必须和订价、广告和其他市场营销要素相互协调。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装一经设计好后，必须进行一些试验。进行工程技术测试的目的是为了保证包装在正常情况下经得起磨损；进行消费者测试的目的是为了保证赢得有利的消费者反应。</span><span style=\"font-family: 宋体;\">并且，即使预先采取了这些试验措施，但是包装设计有时还会存在某种根本性的缺陷：比如，一个食品公司开发出一种加压的烤肉汁罐头，定名为“喷喷喷雾罐头”，在市场试验中发现包装有潜在的祸患：“我们原以为我们有了一个好罐头，但是，我们幸好最初只在德克萨斯州和加里福尼亚州的商店里进行试销。这些罐头一旦加温，它们就开始爆炸。</span> <span style=\"font-family: 宋体;\">因为我们没有在全国各地销售，所以我们的损失仅为</span>15<span style=\"font-family: 宋体;\">万美元，而不是几百万美元．”</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 为某新产品设计效果良好的包装可能要化费数十万美元，并需要数月以至于一年的时间。不能因为看到包装化在吸引和满足消费者方面能起到一些作用，而过分强调包装化的重要性。但公司应该注意到，社会对包装化已日益关注，公司应作出相应的决策，来为社会利益服务，并为眼前的顾客和公司的目标服务。</span></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; <strong>此外，产品包装也有一些基本原则：</strong></span></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、适用原则。包装的主要目的是保护商品。因此，首先要根据产品的不同性质和特点，合理地选用包装材料和包装技术，确保产品不损坏、不变质、不变形等，尽量使用符合环保标准的包装材料；其次要合理设计包装，便于运输等。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、美观原则。销售包装具有美化商品的作用，因此在设计上要求外形新颖、大方、美观，具有较强的艺术性。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、经济原则。在符合营销策略的前提下，应尽量降低包装成本。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、环保原则。产品包装要符合环境保护的要求，不会对自然环境造成污染。包装可回收或者可以有多种用途，可以多次使用。或者可以有重新装满使用的功能。</span></p><p><strong><span style=\"font-family:宋体\">&nbsp; &nbsp;产品包装的几种策略</span></strong></p><p>&nbsp; &nbsp; 1<span style=\"font-family:宋体\">、类似包装，即企业所有产品的包装，在图案、色彩等方面，均采用同一的形式。这种方法，可以降低包装的成本，扩大企业的影响，特别是在推出新产品时，可以利用企业的声誉，使顾客首先从包装上辨认出产品，迅速打开市场。</span></p><p>&nbsp; &nbsp; 2<span style=\"font-family:宋体\">、组合包装，即把若干有关联的产品，包装在同一容器中。如化妆品的组合包装、节日礼品盒包装等，都属于这种包装方法。组合包装不仅能促进消费者的购买，也有利于企业推销产品，特别是推销新产品时，可将其与老产品组合出售，创造条件使消费者接受、试用。</span></p><p>&nbsp; &nbsp; 3<span style=\"font-family:宋体\">、附赠品包装。这种包装的主要方法是在包装物中附赠一些物品，从而引起消费者的购买兴趣，有时，还能造成顾客重复购买的意愿。例如在珍珠霜盒里放一颗珍珠，顾客买了一定数量之后就能串成一根项链。</span></p><p>&nbsp; &nbsp; 4<span style=\"font-family:宋体\">、再使用包装。这种包装物在产品使用完后，还可做别的用处。这样，购买者可以得到一种额外的满足，从而激发其购买产品的欲望。如设计精巧的果酱瓶，在果酱吃完后可以作茶杯之用。包装物在继续使用过程中，实际还起了经常性的广告作用，增加了顾客重复购买的可能。</span></p><p>&nbsp; &nbsp; 5<span style=\"font-family:宋体\">、分组包装，即对同一种产品，可以根据顾客的不同需要，采用不同级别的包装。如用作礼品，则可以精致地包装，若自己使用，则只需简单包扎。此外，对不同等级的产品，也可采用不同包装。高档产品，包装精致些，表示产品的身份；中低档产品，包装简略些，以减少产品成本。</span></p><p>&nbsp; &nbsp; 6<span style=\"font-family:宋体\">、改变包装。当由于某种原因使产品销量下降，市场声誉跌落时，企业可以在改进产品质量的同时，改变包装的形式，从而以新的产品形象出现在市场，改变产品在消费者心目中的不良地位。这种做法，有利于迅速恢复企业声誉，重新扩大市场份额。</span></p><p><span style=\"font-family:宋体\">&nbsp;<strong> &nbsp; 产品包装说明</strong></span></p><p>&nbsp; &nbsp;<span style=\"font-family: 宋体;\">产品的包装说明是包装的重要组成部分，它在宣传产品功效、争取消费者了解、指导人们正确消费方面有重大作用。</span></p><p>&nbsp; &nbsp;<strong> 1<span style=\"font-family:宋体\">、包装标签</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 包装标签是指附着或系挂在产品销售包装上的文字、图形、雕刻及印制的说明。标签可以是附着在产品上的简易签条，也可以是精心设计的作为包装的一部分的图案。标签可能仅标有品名，也可能载有许多信息，能用来识别、检验内装产品，同时也可以起到促销作用。</span></p><p><span style=\"font-family:宋体\">通常，产品标签主要包括：制造者或销售者的名称和地址、产品名称、商标、成分、品质特点、包装内产品数量、使用方法及用量、编号、贮藏应注意的事项、质检号、生产日期和有效期等内容。值得提及的是，印有彩色图案或实物照片的标签有明显的促销功效。</span></p><p>&nbsp; &nbsp; <strong>2<span style=\"font-family:宋体\">、包装标志</span></strong></p><p><span style=\"font-family:宋体\">&nbsp; &nbsp; 是在运输包装的外部印制的图形、文字和数字以及它们的组合。包装标志主要有运输标志、指示性标志、警告性标志三种。运输标志又称为唛头</span>(Mark)<span style=\"font-family:宋体\">，是指在产品外包装上印制的反映收货人和发货人、目的地或中转地、件号、批号、产地等内容的几何图形、特定字母、数字和简短的文字等。指示性标志是根据产品的特性，对一些容易破碎、残损、变质的产品，用醒目的图形和简单的文字做出的标志。指示性标志指示有关人员在装卸、搬运、储存、作业中引起注意，常见的有“此端向上”、“易碎”、“小心轻放”、“由此吊起”等。警告性标志是指在易燃品、易爆品、腐蚀性物品和放射性物品等危险品的运输包装上印制特殊的文字，以示警告。常见的有“爆炸品”、“易燃品”、“有毒品”等。</span></p>' WHERE ( `id` = 178 ) [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007568s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2014-04-21T15:07:45+08:00 ] 123.245.227.238 /admin.php/Web/updacase/id/178
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `lm_sclass` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `lm_sclass`  [ RunTime:0.000160s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 178 ) LIMIT 1   [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2014-04-21T15:08:37+08:00 ] 123.245.227.238 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001587s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.001344s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2014-04-21T15:09:00+08:00 ] 123.245.227.238 /admin.php/Web/company
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001324s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `pid` = 0 )  [ RunTime:0.001508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2014-04-21T15:09:03+08:00 ] 123.245.227.238 /admin.php/Web/updac/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.001673s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015778s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php:378) /www/web/longmamedia_com/public_html/ThinkPHP/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2014-04-21T15:09:20+08:00 ] 123.245.227.238 /admin.php/Web/casel
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of WebAction::show() should be compatible with that of Action::show() /www/web/longmamedia_com/public_html/Admin/Lib/Action/WebAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `lm_company` [ RunTime:0.000884s ]
+SQL: SELECT * FROM `lm_company` WHERE ( `id` NOT IN ('1','2','3') )  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020848s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001260s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+

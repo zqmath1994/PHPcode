@@ -1,0 +1,21 @@
+[ 2014-03-27T12:53:22+08:00 ] 127.0.0.1 /longma/admin.php/Web/savec/id/
+ERR: 参数错误或者未定义:id
+
+[ 2014-03-27T13:10:17+08:00 ] 127.0.0.1 /longma/admin.php/Web/updacase/id/8
+ERR: 模板不存在[./admin/Tpl/Web/updacase.html]
+
+[ 2014-03-27T13:16:08+08:00 ] 127.0.0.1 /longma/admin.php/Web/savecase
+ERR: 参数错误或者未定义:id
+
+[ 2014-03-27T18:08:15+08:00 ] 127.0.0.1 /longma/admin.php/Web/o1
+ERR: 非法操作:o1
+
+[ 2014-03-27T18:23:32+08:00 ] 127.0.0.1 /longma/admin.php/Web/addolay
+ERR: 模板不存在[./admin/Tpl/Web/addolay.html]
+
+[ 2014-03-27T18:25:33+08:00 ] 127.0.0.1 /longma/admin.php/Web/inseolay
+ERR: 非法操作:inseolay
+
+[ 2014-03-27T20:48:23+08:00 ] 127.0.0.1 /longma/admin.php/Web/savecase/id/5
+ERR: Model:detele您所请求的方法不存在！
+

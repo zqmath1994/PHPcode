@@ -1,0 +1,47 @@
+/* 酷站代码整理 http://www.5icool.org */
+/*右侧浮动开始*/
+.sidebar {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 61px; RIGHT: 20px
+}
+.sidebar A {
+	WIDTH: 61px; DISPLAY: block; MARGIN-BOTTOM: 3px; BACKGROUND: url(../images/sidebar.png) no-repeat; HEIGHT: 61px
+}
+.sidebar A:hover {
+	WIDTH: 61px; DISPLAY: block; MARGIN-BOTTOM: 3px; BACKGROUND: url(../images/sidebar.png) no-repeat; HEIGHT: 61px
+}
+.sidebar .s1 {
+	BACKGROUND-POSITION: 0px 0px
+}
+.sidebar .s2 {
+	BACKGROUND-POSITION: 0px -65px
+}
+.sidebar .s3 {
+	BACKGROUND-POSITION: 0px -130px
+}
+.sidebar .s4 {
+	BACKGROUND-POSITION: 0px -196px
+}
+.sidebar .s5 {
+	BACKGROUND-POSITION: 0px -261px
+}
+.sidebar .s6 {
+	BACKGROUND-POSITION: 0px -326px
+}
+.sidebar .s1:hover {
+	BACKGROUND-POSITION: -66px 0px
+}
+.sidebar .s2:hover {
+	BACKGROUND-POSITION: -66px -65px
+}
+.sidebar .s3:hover {
+	BACKGROUND-POSITION: -66px -130px
+}
+.sidebar .s4:hover {
+	BACKGROUND-POSITION: -66px -196px
+}
+.sidebar .s5:hover {
+	BACKGROUND-POSITION: -66px -261px
+}
+.sidebar .s6:hover {
+	BACKGROUND-POSITION: -66px -326px
+}
